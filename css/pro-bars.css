@@ -8,35 +8,13 @@
 		width: 100%;
 		height: 15px;
 		margin: 0 0 20px 0;
-		border: 2px solid #222;
+		border: 2px solid #99D4A5;
 		-webkit-border-radius: 20px;
 		-moz-border-radius: 20px;
 		border-radius: 20px;
-		background: #222;
+		background: #99D4A5;
 		overflow: hidden;
 	}
-
-	/* Colors used with the FlatUI Color Scheme - http://www.flatuicolors.com/ */
-		.pro-bar-container.color-turquoise		{ border-color: #1abc9c; background: #1abc9c; }
-		.pro-bar-container.color-green-sea		{ border-color: #16a085; background: #16a085; }
-		.pro-bar-container.color-emerald		{ border-color: #2ecc71; background: #2ecc71; }
-		.pro-bar-container.color-nephritis		{ border-color: #27ae60; background: #27ae60; }
-		.pro-bar-container.color-peter-river	{ border-color: #3498db; background: #3498db; }
-		.pro-bar-container.color-belize-hole	{ border-color: #2980b9; background: #2980b9; }
-		.pro-bar-container.color-amethyst		{ border-color: #9b59b6; background: #9b59b6; }
-		.pro-bar-container.color-wisteria		{ border-color: #8e44ad; background: #8e44ad; }
-		.pro-bar-container.color-wet-asphalt	{ border-color: #34495e; background: #34495e; }
-		.pro-bar-container.color-midnight-blue	{ border-color: #2c3e50; background: #2c3e50; }
-		.pro-bar-container.color-sun-flower		{ border-color: #f1c40f; background: #f1c40f; }
-		.pro-bar-container.color-orange			{ border-color: #f39c12; background: #f39c12; }
-		.pro-bar-container.color-carrot			{ border-color: #e67e22; background: #e67e22; }
-		.pro-bar-container.color-pumpkin		{ border-color: #d35400; background: #d35400; }
-		.pro-bar-container.color-alizarin		{ border-color: #e74c3c; background: #e74c3c; }
-		.pro-bar-container.color-pomegranate	{ border-color: #c0392b; background: #c0392b; }
-		.pro-bar-container.color-clouds			{ border-color: #ecf0f1; background: #ecf0f1; }
-		.pro-bar-container.color-silver			{ border-color: #bdc3c7; background: #bdc3c7; }
-		.pro-bar-container.color-concrete		{ border-color: #95a5a6; background: #95a5a6; }
-		.pro-bar-container.color-asbestos		{ border-color: #7f8c8d; background: #7f8c8d; }
 
 	.pro-bar {
 		-moz-box-sizing: content-box;
@@ -47,7 +25,7 @@
 		-webkit-border-radius: 20px;
 		-moz-border-radius: 20px;
 		border-radius: 20px;
-		background: #444;
+		background: #99D4A5;
 	}
 
 	.pro-bar.bar-100	{ width: 100%; }
@@ -151,104 +129,3 @@
 	.pro-bar.bar-2		{ width: 2%;   }
 	.pro-bar.bar-1		{ width: 1%;   }
 	.pro-bar.bar-0		{ width: 0%;   }
-
-	.pro-bar.color-turquoise		{ background: #1abc9c; }
-	.pro-bar.color-green-sea		{ background: #16a085; }
-
-	.pro-bar.color-emerald			{ background: #2ecc71; }
-	.pro-bar.color-nephritis		{ background: #27ae60; }
-
-	.pro-bar.color-peter-river		{ background: #3498db; }
-	.pro-bar.color-belize-hole		{ background: #2980b9; }
-
-	.pro-bar.color-amethyst			{ background: #9b59b6; }
-	.pro-bar.color-wisteria			{ background: #8e44ad; }
-
-	.pro-bar.color-wet-asphalt		{ background: #34495e; }
-	.pro-bar.color-midnight-blue	{ background: #2c3e50; }
-
-	.pro-bar.color-sun-flower		{ background: #f1c40f; }
-	.pro-bar.color-orange			{ background: #f39c12; }
-
-	.pro-bar.color-carrot			{ background: #e67e22; }
-	.pro-bar.color-pumpkin			{ background: #d35400; }
-
-	.pro-bar.color-alizarin			{ background: #e74c3c; }
-	.pro-bar.color-pomegranate		{ background: #c0392b; }
-
-	.pro-bar.color-clouds			{ background: #ecf0f1; }
-	.pro-bar.color-silver			{ background: #bdc3c7; }
-
-	.pro-bar.color-concrete			{ background: #95a5a6; }
-	.pro-bar.color-asbestos			{ background: #7f8c8d; }
-
-	@-webkit-keyframes progressStripeLTR {
-		to { background-position: 30px 0; }
-	}
-
-	@-moz-keyframes progressStripeLTR {
-		to { background-position: 30px 0; }
-	}
-
-	@-ms-keyframes progressStripeLTR {
-		to { background-position: 30px 0; }
-	}
-
-	@-o-keyframes progressStripeLTR {
-		to { background-position: 30px 0; }
-	}
-
-	@keyframes progressStripeLTR {
-		to { background-position: 30px 0; }
-	}
-
-	@-webkit-keyframes progressStripeRTL {
-		to { background-position: -30px 0; }
-	}
-
-	@-moz-keyframes progressStripeRTL {
-		to { background-position: -30px 0; }
-	}
-
-	@-ms-keyframes progressStripeRTL {
-		to { background-position: -30px 0; }
-	}
-
-	@-o-keyframes progressStripeRTL {
-		to { background-position: -30px 0; }
-	}
-
-	@keyframes progressStripeRTL {
-		to { background-position: -30px 0; }
-	}
-
-	.pro-bar-candy {
-		width: 100%;
-		height: 15px;
-		-webkit-border-radius: 20px;
-		-moz-border-radius: 20px;
-		border-radius: 20px;
-		background-image: -webkit-linear-gradient(-45deg, rgba(255, 255, 255, 0.25) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 75%, transparent 75%, transparent);
-		background-image: -moz-linear-gradient(-45deg, rgba(255, 255, 255, 0.25) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 75%, transparent 75%, transparent);
-		background-image: -ms-linear-gradient(-45deg, rgba(255, 255, 255, 0.25) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 75%, transparent 75%, transparent);
-		background-image: -o-linear-gradient(-45deg, rgba(255, 255, 255, 0.25) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 75%, transparent 75%, transparent);
-		background-image: linear-gradient(-45deg, rgba(255, 255, 255, 0.25) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 75%, transparent 75%, transparent);
-		background-repeat: repeat-x;
-		background-size: 30px 30px;
-	}
-
-	.pro-bar-candy.candy-ltr {
-		-webkit-animation: progressStripeLTR .6s linear infinite;
-		-moz-animation: progressStripeLTR .6s linear infinite;
-		-ms-animation: progressStripeLTR .6s linear infinite;
-		-o-animation: progressStripeLTR .6s linear infinite;
-		animation: progressStripeLTR .6s linear infinite;
-	}
-
-	.pro-bar-candy.candy-rtl {
-		-webkit-animation: progressStripeRTL .6s linear infinite;
-		-moz-animation: progressStripeRTL .6s linear infinite;
-		-ms-animation: progressStripeRTL .6s linear infinite;
-		-o-animation: progressStripeRTL .6s linear infinite;
-		animation: progressStripeRTL .6s linear infinite;
-	}

@@ -370,7 +370,7 @@ nav .brand-logo img {
   background-color: #fafafa;
   float: left;
   display: inline;
-  padding: 80px 0 0;
+  padding: 80px 0;
   width: 100%;
 }
 /* line 12, ../sass/modules/_about.scss */
@@ -452,7 +452,7 @@ nav .brand-logo img {
 }
 
 /* line 84, ../sass/modules/_about.scss */
-.pro-bar-container.color-wisteria {
+.pro-bar-container.color-default {
   background-color: #EEEEEE;
 }
 
@@ -460,12 +460,6 @@ nav .brand-logo img {
 .custom-icon {
   width: 4em;
   height: auto;
-}
-
-/* line 93, ../sass/modules/_about.scss */
-.skill-block {
-  padding: 50px !important;
-  text-align: center;
 }
 
 /*--------------------*/
@@ -476,57 +470,79 @@ nav .brand-logo img {
   display: inline;
   float: left;
   width: 100%;
-  padding: 60px 0;
+  padding: 0 0 60px;
   background-color: #FFFFFF;
 }
-/* line 14, ../sass/modules/_cv.scss */
+/* line 13, ../sass/modules/_cv.scss */
+#cv .skill-block {
+  padding: 50px 50px 0 !important;
+  text-align: center;
+}
+/* line 19, ../sass/modules/_cv.scss */
+#cv #experiance li {
+  width: 100%;
+  z-index: 2;
+  position: relative;
+  float: left;
+}
+/* line 26, ../sass/modules/_cv.scss */
 #cv #experiance .year {
   font-size: .8em;
   color: #666666;
+  width: 10%;
+  background: #FFFFFF;
+  padding: 10px;
+  display: inline-block;
 }
-/* line 18, ../sass/modules/_cv.scss */
+/* line 35, ../sass/modules/_cv.scss */
+#cv #experiance .description {
+  width: 90%;
+  float: right;
+  display: inline-block;
+  background: #eee;
+  margin-bottom: 10px;
+  position: relative;
+  padding: 10px 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+/* line 46, ../sass/modules/_cv.scss */
 #cv #experiance h3 {
   font-size: 1.3em;
   line-height: 1.4em;
   margin: 0;
 }
-/* line 23, ../sass/modules/_cv.scss */
+/* line 51, ../sass/modules/_cv.scss */
 #cv #experiance h4 {
   font-size: 1.1em;
   line-height: 1.2em;
   margin: 1em 0 0;
 }
-/* line 28, ../sass/modules/_cv.scss */
+/* line 56, ../sass/modules/_cv.scss */
 #cv #experiance p {
   font-size: .8em;
 }
-/* line 34, ../sass/modules/_cv.scss */
+/* line 62, ../sass/modules/_cv.scss */
 #cv #skill .btn-ghost {
-  border: 1px solid #666666;
+  border: 1px solid #ddd;
   background: #EEEEEE;
   padding: 10px;
   margin: 0 .1em .2em 0;
   display: inline-block;
 }
-/* line 43, ../sass/modules/_cv.scss */
-#cv .skill-block {
-  padding: 50px !important;
-  text-align: center;
-}
-/* line 48, ../sass/modules/_cv.scss */
+/* line 71, ../sass/modules/_cv.scss */
 #cv .skill-inner {
   display: inline;
   float: left;
   width: 100%;
 }
-/* line 52, ../sass/modules/_cv.scss */
+/* line 75, ../sass/modules/_cv.scss */
 #cv .skill-inner p {
   color: #727272;
   font-size: 16px;
   line-height: 30px;
   font-weight: 400;
 }
-/* line 60, ../sass/modules/_cv.scss */
+/* line 83, ../sass/modules/_cv.scss */
 #cv .title {
   font-size: 28px;
   font-weight: 700;
@@ -534,13 +550,13 @@ nav .brand-logo img {
   margin-bottom: 35px;
   text-transform: uppercase;
 }
-/* line 68, ../sass/modules/_cv.scss */
+/* line 91, ../sass/modules/_cv.scss */
 #cv .skill-progress-bar {
   display: inline;
   float: left;
   width: 100%;
 }
-/* line 72, ../sass/modules/_cv.scss */
+/* line 95, ../sass/modules/_cv.scss */
 #cv .skill-progress-bar span {
   color: #727272;
   display: inline-block;
@@ -549,12 +565,12 @@ nav .brand-logo img {
   margin-bottom: 5px;
   text-transform: uppercase;
 }
-/* line 82, ../sass/modules/_cv.scss */
+/* line 105, ../sass/modules/_cv.scss */
 #cv .pro-bar-container {
   border-radius: 0;
   height: 30px;
 }
-/* line 87, ../sass/modules/_cv.scss */
+/* line 110, ../sass/modules/_cv.scss */
 #cv .pro-bar {
   border-radius: 0px;
   height: 30px;

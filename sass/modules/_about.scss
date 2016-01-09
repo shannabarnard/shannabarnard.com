@@ -6,7 +6,7 @@
   background-color: #fafafa;
   float: left;
   display: inline;
-  padding: 80px 0 0; 
+  padding: 80px 0; 
   width: 100%;
 
   .about-inner {
@@ -81,16 +81,11 @@
   margin-left: 50px;
 }
 
-.pro-bar-container.color-wisteria {
+.pro-bar-container.color-default {
   background-color: $light-gray;
 }
 
 .custom-icon {
   width: 4em;
   height: auto;
-}
-
-.skill-block {
-    padding: 50px !important;
-    text-align: center;
 }

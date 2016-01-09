@@ -7,14 +7,42 @@
   display: inline;
   float: left;
   width: 100%;
-  padding: 60px 0;
+  padding: 0 0 60px;
   background-color: $white; 
 
+  .skill-block {
+      padding: 50px 50px 0 !important;
+      text-align: center;
+  }
+
   #experiance {
+    li {
+        width: 100%;
+        z-index: 2;
+        position: relative;
+        float: left;
+    }
+
     .year {
       font-size: .8em;
       color: $font-gray;
+      width: 10%;
+      background: $white;
+      padding: 10px;
+      display: inline-block;
+  }
+
+    .description {
+        width: 90%;
+        float: right;
+        display: inline-block;
+        background: #eee;
+        margin-bottom: 10px;
+        position: relative;
+        padding: 10px 10px 0;
+        border-bottom: 1px solid #ddd;
     }
+
     h3 {
       font-size: 1.3em;
       line-height: 1.4em;
@@ -32,17 +60,12 @@
 
   #skill {
     .btn-ghost {
-      border: 1px solid $font-gray;
+      border: 1px solid #ddd;
       background: $light-gray;
       padding: 10px;
       margin: 0 .1em .2em 0;
       display: inline-block;
     }
-  }
-
-  .skill-block {
-      padding: 50px !important;
-      text-align: center;
   }
 
   .skill-inner {
