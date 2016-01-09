@@ -7,13 +7,37 @@
   display: inline;
   float: left;
   width: 100%;
+  padding: 60px 0;
+  background-color: $white; 
+
+  #experiance {
+    .year {
+      font-size: .8em;
+      color: $font-gray;
+    }
+    h3 {
+      font-size: 1.3em;
+      line-height: 1.4em;
+      margin: 0;
+    }
+    h4 {
+      font-size: 1.1em;
+      line-height: 1.2em;
+      margin: 1em 0 0;
+    }
+    p {
+      font-size: .8em;
+    }
+  }
 
   #skill {
-    background-color: $white;  
-    display: inline;
-    padding: 60px 0;
-    float: left;
-    width: 100%;
+    .btn-ghost {
+      border: 1px solid $font-gray;
+      background: $light-gray;
+      padding: 10px;
+      margin: 0 .1em .2em 0;
+      display: inline-block;
+    }
   }
 
   .skill-block {
@@ -59,7 +83,6 @@
     border-radius: 0;
     height: 30px;  
   }
-
 
   .pro-bar {
     border-radius: 0px;
