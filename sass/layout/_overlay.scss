@@ -1,0 +1,23 @@
+/*--------------------*/
+/* Overlay 			  */
+/*--------------------*/
+
+.overlay-header {
+  opacity: 0.7;
+  /*background: rgba(255, 255, 255, 0.92) none repeat scroll 0 0;*/
+  height: 100%;
+  padding: 20px 0;
+  width: 100%;
+  background-color: $primary-color;
+}
+
+.overlay-content {
+  height: 100%;
+  left: 0;
+  padding: 30px 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}

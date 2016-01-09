@@ -1,0 +1,96 @@
+/*--------------------*/
+/* ABOUT */
+/*--------------------*/
+
+#about{
+  background-color: #fafafa;
+  float: left;
+  display: inline;
+  padding: 80px 0px; 
+  width: 100%;
+
+  .about-inner {
+    display: inline;
+    min-height: 300px;
+    float: left;
+    width: 100%;
+    h3 {
+      color: $primary-color;
+    }
+  }
+
+  .about-inner-left {  
+    display: inline;
+    text-align: center;
+    float: left;
+    width: 100%;
+  }
+
+  .about-inner-right { 
+    min-height: 250px;
+    display: inline;
+    float: left;
+    width: 100%;
+    h3 {
+      margin-top: 0px;
+      font-size: 24px;
+      font-weight: 600;  
+      text-transform: uppercase;
+    }
+    p {
+      color: #727272;
+      font-size: 15px;
+      line-height: 28px;
+      margin-bottom: 35px;
+    }
+  }
+}
+
+.profile-img {
+  border: 5px solid $white;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  height: 130px;
+  margin: 0 auto;
+  width: 140px;
+}
+
+.personal-information {
+  display: inline;
+  float: left;
+  width: 100%;
+
+  h3 {
+    color: $primary-color;
+    margin-top: 0px;
+    font-size: 24px;
+    font-weight: 600;  
+    text-transform: uppercase;
+  }
+
+  ul li {
+    border-bottom: 1px solid $light-gray;
+    color: #727272;
+    font-size: 15px;
+    margin-bottom: 12px;
+    padding-bottom: 12px;
+  }
+}
+
+.resume-btn {
+  margin-top: 160px;
+  margin-left: 50px;
+}
+
+.pro-bar-container.color-wisteria {
+  background-color: $light-gray;
+}
+
+.custom-icon {
+  width: 4em;
+  height: auto;
+}
+
+.skill-block {
+    padding: 50px !important;
+    text-align: center;
+}

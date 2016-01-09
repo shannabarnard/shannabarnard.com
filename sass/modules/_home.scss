@@ -1,0 +1,57 @@
+
+/*--------------------*/
+/* Home */
+/*--------------------*/
+
+
+#home {
+  background-image: url("../img/home-img1.jpg");
+  background-position: 100% 100%;
+  background-size: 100% 100%;
+  display: inline;
+  float: left;
+  height: 600px;
+  position: relative;
+  width: 100%;
+
+  .overlay-section {
+    background: rgba(0, 0, 0, 0.7) none repeat scroll 0 0;
+    height: 100%;
+    width: 100%;
+  }
+
+  .home-inner {
+    display: inline;
+    float: left;
+    padding: 100px;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    p {
+      color: $white;
+      font-size: 18px;
+      font-weight: 300;
+      margin-bottom: 38px;
+      text-transform: uppercase;
+    }
+  }
+
+  .home-title{
+    color: $white;
+    font-size: 72px;
+    font-weight: 700;
+    margin: 15px 0;
+    text-transform: uppercase;
+    span{
+      color: $primary-color;
+    }
+  }
+  .call-to-about {
+    bottom: -140px;  
+    left: 47.5%;
+    position: absolute;
+    i {
+      color: $primary-color;
+    }
+  }
+}

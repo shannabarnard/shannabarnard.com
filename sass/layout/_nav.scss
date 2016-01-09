@@ -1,0 +1,48 @@
+/*--------------------*/
+/* NAV */
+/*--------------------*/
+
+.navbar-fixed nav {
+  background-color: $primary-color;
+}
+
+.customNavigation i{
+  color: $primary-color;
+}
+
+.custom-nav li a{
+  font-family: "Roboto",sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 14px;
+  padding: 25px 20px;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+}
+
+nav .brand-logo {    
+  font-weight: bold;  
+  text-transform: uppercase;
+  img {
+    height: 45px;
+    margin-top: 10px;
+  }
+}
+
+.side-nav a {  
+  text-transform: uppercase;
+  li:hover, li.active {
+    background-color: $primary-color; 
+    color: $white;
+  }
+  a:hover{
+    color: $white;
+  }
+}
+
+.progress .indeterminate {
+  background-color: $primary-color;
+}

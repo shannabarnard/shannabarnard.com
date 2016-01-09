@@ -1,0 +1,62 @@
+/*--------------------*/
+/* BASIC TYPOGRAPHY   */
+/*--------------------*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  font-family: "Roboto",sans-serif;
+}
+
+a {
+  color: $primary-color;
+}
+
+.btn ,.btn-large{
+  background-color: $primary-color;
+}
+
+.btn:hover, .btn-large:hover {
+  background-color: $primary-color;
+}
+
+.title{
+  color: $primary-color;
+}
+
+.main-wrapper{
+  display: inline;
+  width: 100%;
+  float: left;
+}
+
+/* Preloader */
+#preloader {
+  position: fixed;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  background-color:#fff; /* change if the mask should have another color then white */
+  z-index:99999; /* makes sure it stays on top */ 
+}
+
+#banner{
+  display: inline;
+  float: left;
+  width: 100%;
+  min-height: 200px;
+}
+
+.header-title {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 40px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
