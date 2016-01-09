@@ -191,33 +191,51 @@ nav .brand-logo img {
 /* line 10, ../sass/layout/_footer.scss */
 #footer .footer-top {
   display: inline;
-  padding: 60px 0;
+  padding: 150px 0;
   float: left;
   width: 100%;
-  background-color: #3B3B3B;
+  background-color: #4C8EB4;
+  background-image: url("../img/footer.png");
+  background-position: right bottom;
+  background-size: 650px auto;
+  background-repeat: no-repeat;
 }
-/* line 18, ../sass/layout/_footer.scss */
+/* line 22, ../sass/layout/_footer.scss */
 #footer .footer-top-inner {
   display: inline;
   float: left;
   width: 100%;
 }
-/* line 22, ../sass/layout/_footer.scss */
+/* line 26, ../sass/layout/_footer.scss */
 #footer .footer-top-inner h2 {
   color: #FFFFFF;
 }
-/* line 25, ../sass/layout/_footer.scss */
+/* line 29, ../sass/layout/_footer.scss */
 #footer .footer-top-inner p {
   color: #FFFFFF;
 }
-/* line 30, ../sass/layout/_footer.scss */
+/* line 34, ../sass/layout/_footer.scss */
+#footer ul li {
+  font-size: 2em;
+  line-height: 2em;
+  color: #FFFFFF;
+}
+/* line 39, ../sass/layout/_footer.scss */
+#footer ul li a {
+  color: #FFFFFF;
+}
+/* line 41, ../sass/layout/_footer.scss */
+#footer ul li a:hover {
+  text-decoration: underline;
+}
+/* line 47, ../sass/layout/_footer.scss */
 #footer .contact {
   display: inline;
   float: left;
   margin-top: 50px;
   width: 100%;
 }
-/* line 37, ../sass/layout/_footer.scss */
+/* line 54, ../sass/layout/_footer.scss */
 #footer .contact-map {
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   border-radius: 4px;
@@ -226,19 +244,19 @@ nav .brand-logo img {
   float: left;
   width: 100%;
 }
-/* line 44, ../sass/layout/_footer.scss */
+/* line 61, ../sass/layout/_footer.scss */
 #footer .contact-map iframe {
   border-radius: 4px;
   margin-bottom: -5px;
 }
-/* line 50, ../sass/layout/_footer.scss */
+/* line 67, ../sass/layout/_footer.scss */
 #footer .footer-bottom {
   background-color: #FFFFFF;
   display: inline;
   float: left;
   width: 100%;
 }
-/* line 57, ../sass/layout/_footer.scss */
+/* line 74, ../sass/layout/_footer.scss */
 #footer .footer-inner {
   display: inline;
   float: left;
@@ -247,7 +265,7 @@ nav .brand-logo img {
   text-align: center;
   width: 100%;
 }
-/* line 66, ../sass/layout/_footer.scss */
+/* line 83, ../sass/layout/_footer.scss */
 #footer .design-info {
   color: #555555;
   display: inline-block;
@@ -255,11 +273,11 @@ nav .brand-logo img {
   line-height: 25px;
   margin-top: 20px;
 }
-/* line 72, ../sass/layout/_footer.scss */
+/* line 89, ../sass/layout/_footer.scss */
 #footer .design-info a {
   color: #555555;
 }
-/* line 77, ../sass/layout/_footer.scss */
+/* line 94, ../sass/layout/_footer.scss */
 #footer .copyright-info {
   color: #555555;
   display: inline-block;
@@ -267,7 +285,7 @@ nav .brand-logo img {
   font-size: 14px;
   line-height: 25px;
 }
-/* line 85, ../sass/layout/_footer.scss */
+/* line 102, ../sass/layout/_footer.scss */
 #footer .up-btn {
   background-color: #FFFFFF;
   color: #000000;
@@ -275,11 +293,11 @@ nav .brand-logo img {
   position: absolute;
   top: -28px;
 }
-/* line 91, ../sass/layout/_footer.scss */
+/* line 108, ../sass/layout/_footer.scss */
 #footer .up-btn i {
   color: #000000;
 }
-/* line 94, ../sass/layout/_footer.scss */
+/* line 111, ../sass/layout/_footer.scss */
 #footer .up-btn:hover, #footer .up-btn:focus {
   background-color: #FFFFFF;
 }
@@ -352,7 +370,7 @@ nav .brand-logo img {
   background-color: #fafafa;
   float: left;
   display: inline;
-  padding: 80px 0px;
+  padding: 80px 0 0;
   width: 100%;
 }
 /* line 12, ../sass/modules/_about.scss */

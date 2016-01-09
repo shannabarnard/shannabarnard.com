@@ -9,10 +9,14 @@
 
   .footer-top {
     display: inline;
-    padding: 60px 0;  
+    padding: 150px 0;  
     float: left;  
     width: 100%;
-    background-color: $dark-gray; 
+    background-color: #4C8EB4; 
+    background-image: url("../img/footer.png");
+    background-position: right bottom;
+    background-size: 650px auto;
+    background-repeat: no-repeat;
   }
 
   .footer-top-inner {
@@ -24,6 +28,19 @@
     }
     p {
       color: $white;
+    }
+  }
+
+  ul li {
+    font-size: 2em;
+    line-height: 2em;
+    color: $white;
+
+    a {
+      color: $white;
+      &:hover {
+        text-decoration: underline;
+      }
     }
   }
 
