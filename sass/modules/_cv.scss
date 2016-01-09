@@ -1,0 +1,68 @@
+/*--------------------*/
+/* CV */
+/*--------------------*/
+
+
+#cv {
+  display: inline;
+  float: left;
+  width: 100%;
+
+  #skill {
+    background-color: $white;  
+    display: inline;
+    padding: 60px 0;
+    float: left;
+    width: 100%;
+  }
+
+  .skill-block {
+      padding: 50px !important;
+      text-align: center;
+  }
+
+  .skill-inner {
+    display: inline;
+    float: left;
+    width: 100%;
+    p {
+      color: #727272;
+      font-size: 16px;
+      line-height: 30px;
+      font-weight: 400;
+    } 
+  }
+
+  .title {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.1;
+    margin-bottom: 35px;
+    text-transform: uppercase;
+  }
+
+  .skill-progress-bar {
+    display: inline;  
+    float: left;  
+    width: 100%; 
+    span {
+      color: #727272;
+      display: inline-block;
+      font-size: 16px;
+      font-weight: bold;
+      margin-bottom: 5px;
+      text-transform: uppercase;
+    } 
+  }
+
+  .pro-bar-container {
+    border-radius: 0;
+    height: 30px;  
+  }
+
+
+  .pro-bar {
+    border-radius: 0px;
+    height: 30px; 
+  }
+}

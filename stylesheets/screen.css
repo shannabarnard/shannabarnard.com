@@ -449,3 +449,72 @@ nav .brand-logo img {
   padding: 50px !important;
   text-align: center;
 }
+
+/*--------------------*/
+/* CV */
+/*--------------------*/
+/* line 6, ../sass/modules/_cv.scss */
+#cv {
+  display: inline;
+  float: left;
+  width: 100%;
+}
+/* line 11, ../sass/modules/_cv.scss */
+#cv #skill {
+  background-color: #FFFFFF;
+  display: inline;
+  padding: 60px 0;
+  float: left;
+  width: 100%;
+}
+/* line 19, ../sass/modules/_cv.scss */
+#cv .skill-block {
+  padding: 50px !important;
+  text-align: center;
+}
+/* line 24, ../sass/modules/_cv.scss */
+#cv .skill-inner {
+  display: inline;
+  float: left;
+  width: 100%;
+}
+/* line 28, ../sass/modules/_cv.scss */
+#cv .skill-inner p {
+  color: #727272;
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 400;
+}
+/* line 36, ../sass/modules/_cv.scss */
+#cv .title {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.1;
+  margin-bottom: 35px;
+  text-transform: uppercase;
+}
+/* line 44, ../sass/modules/_cv.scss */
+#cv .skill-progress-bar {
+  display: inline;
+  float: left;
+  width: 100%;
+}
+/* line 48, ../sass/modules/_cv.scss */
+#cv .skill-progress-bar span {
+  color: #727272;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+/* line 58, ../sass/modules/_cv.scss */
+#cv .pro-bar-container {
+  border-radius: 0;
+  height: 30px;
+}
+/* line 64, ../sass/modules/_cv.scss */
+#cv .pro-bar {
+  border-radius: 0px;
+  height: 30px;
+}
