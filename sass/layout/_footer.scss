@@ -65,7 +65,7 @@
   }
 
   .footer-bottom{
-    background-color: $white;
+    background-color: $primary-color;
     display: inline;
     float: left;
     width: 100%;
@@ -100,8 +100,7 @@
   }
 
   .up-btn {
-    background-color: $white;
-    color: $black;
+    color: $white;
     left: 47.7%;
     position: absolute;
     top: -28px;
@@ -109,7 +108,7 @@
       color: $black;
     }
     &:hover, &:focus {
-      background-color: $white;
+      background-color: #4C8EB4;
     }
   }
 }

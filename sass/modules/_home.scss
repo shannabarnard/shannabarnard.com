@@ -5,7 +5,7 @@
 
 
 #home {
-  background-image: url("../img/home-img1.jpg");
+  background-image: url("../img/home-bg");
   background-position: 100% 100%;
   background-size: 100% 100%;
   display: inline;
@@ -15,7 +15,7 @@
   width: 100%;
 
   .overlay-section {
-    background: rgba(0, 0, 0, 0.7) none repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0.6) none repeat scroll 0 0;
     height: 100%;
     width: 100%;
   }
@@ -23,7 +23,7 @@
   .home-inner {
     display: inline;
     float: left;
-    padding: 100px;
+    padding: 180px;
     text-align: center;
     position: relative;
     width: 100%;
@@ -47,7 +47,7 @@
     }
   }
   .call-to-about {
-    bottom: -140px;  
+    bottom: 0;  
     left: 47.5%;
     position: absolute;
     i {

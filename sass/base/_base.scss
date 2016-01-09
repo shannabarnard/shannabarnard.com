@@ -33,6 +33,10 @@ a {
   float: left;
 }
 
+small {
+  color: $font-gray;
+}
+
 /* Preloader */
 #preloader {
   position: fixed;

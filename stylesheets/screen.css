@@ -42,8 +42,13 @@ a {
   float: left;
 }
 
+/* line 36, ../sass/base/_base.scss */
+small {
+  color: #666666;
+}
+
 /* Preloader */
-/* line 37, ../sass/base/_base.scss */
+/* line 41, ../sass/base/_base.scss */
 #preloader {
   position: fixed;
   top: 0;
@@ -56,7 +61,7 @@ a {
   /* makes sure it stays on top */
 }
 
-/* line 47, ../sass/base/_base.scss */
+/* line 51, ../sass/base/_base.scss */
 #banner {
   display: inline;
   float: left;
@@ -64,7 +69,7 @@ a {
   min-height: 200px;
 }
 
-/* line 54, ../sass/base/_base.scss */
+/* line 58, ../sass/base/_base.scss */
 .header-title {
   color: #fff;
   font-size: 40px;
@@ -251,7 +256,7 @@ nav .brand-logo img {
 }
 /* line 67, ../sass/layout/_footer.scss */
 #footer .footer-bottom {
-  background-color: #FFFFFF;
+  background-color: #78ADC9;
   display: inline;
   float: left;
   width: 100%;
@@ -287,19 +292,18 @@ nav .brand-logo img {
 }
 /* line 102, ../sass/layout/_footer.scss */
 #footer .up-btn {
-  background-color: #FFFFFF;
-  color: #000000;
+  color: #FFFFFF;
   left: 47.7%;
   position: absolute;
   top: -28px;
 }
-/* line 108, ../sass/layout/_footer.scss */
+/* line 107, ../sass/layout/_footer.scss */
 #footer .up-btn i {
   color: #000000;
 }
-/* line 111, ../sass/layout/_footer.scss */
+/* line 110, ../sass/layout/_footer.scss */
 #footer .up-btn:hover, #footer .up-btn:focus {
-  background-color: #FFFFFF;
+  background-color: #4C8EB4;
 }
 
 /*--------------------*/
@@ -307,7 +311,7 @@ nav .brand-logo img {
 /*--------------------*/
 /* line 7, ../sass/modules/_home.scss */
 #home {
-  background-image: url("../img/home-img1.jpg");
+  background-image: url("../img/home-bg");
   background-position: 100% 100%;
   background-size: 100% 100%;
   display: inline;
@@ -318,7 +322,7 @@ nav .brand-logo img {
 }
 /* line 17, ../sass/modules/_home.scss */
 #home .overlay-section {
-  background: rgba(0, 0, 0, 0.7) none repeat scroll 0 0;
+  background: rgba(0, 0, 0, 0.6) none repeat scroll 0 0;
   height: 100%;
   width: 100%;
 }
@@ -326,7 +330,7 @@ nav .brand-logo img {
 #home .home-inner {
   display: inline;
   float: left;
-  padding: 100px;
+  padding: 180px;
   text-align: center;
   position: relative;
   width: 100%;
@@ -353,7 +357,7 @@ nav .brand-logo img {
 }
 /* line 49, ../sass/modules/_home.scss */
 #home .call-to-about {
-  bottom: -140px;
+  bottom: 0;
   left: 47.5%;
   position: absolute;
 }
@@ -526,7 +530,7 @@ nav .brand-logo img {
   border: 1px solid #ddd;
   background: #EEEEEE;
   padding: 10px;
-  margin: 0 .1em .2em 0;
+  margin: 0 .1em .3em 0;
   display: inline-block;
 }
 /* line 71, ../sass/modules/_cv.scss */
