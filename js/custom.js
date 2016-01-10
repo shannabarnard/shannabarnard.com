@@ -9,6 +9,7 @@
 	5. BOTTOM TO UP 
 	6. PARALLAX HEADER
 	7. HIRE ME SCROLL
+	8. TESTIMONIAL SLIDER
 	
 	
 **/
@@ -122,5 +123,26 @@ jQuery(function($){
         'slow');
 	});
 
+	/* ----------------------------------------------------------- */
+	/*  8. TESTIMONIAL SLIDER (Owl Carousel)
+	/* ----------------------------------------------------------- */
+
+	var owl2 = $("#owl-carousel2"); 
+    owl2.owlCarousel({
+        items : 2, //4 items above 1024px browser width
+        itemsDesktop : [1024,2], //3 items between 1024px and 901px
+        itemsDesktopSmall : [900,2], // betweem 900px and 601px
+        itemsTablet: [600,1], //1 items between 600 and 0
+        itemsMobile : 1 // itemsMobile disabled - inherit from itemsTablet option
+    });
+
+    // Slide Navigation
+    jQuery(".next2").click(function(){
+        owl2.trigger('owl.next');
+    });
+
+    jQuery(".prev2").click(function(){
+        owl2.trigger('owl.prev');
+    });
 	
 });

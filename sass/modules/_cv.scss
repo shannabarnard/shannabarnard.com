@@ -7,7 +7,7 @@
   display: inline;
   float: left;
   width: 100%;
-  padding: 0 0 60px;
+  padding: 0;
   background-color: $white; 
 
   .skill-block {
@@ -110,5 +110,15 @@
   .pro-bar {
     border-radius: 0px;
     height: 30px; 
+  }
+
+  .client-row {
+    margin: 40px 0;
+      .client-logo {
+        height: 50px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto
+      }
   }
 }

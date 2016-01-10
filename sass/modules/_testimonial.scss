@@ -1,0 +1,86 @@
+/*--------------------*/
+/* TESTIMONIAL */
+/*--------------------*/
+
+
+#testimonial {
+  display: inline;
+  padding: 60px 0; 
+  float: left;
+  width: 100%;
+  background-color: #99D4A5;
+}
+
+
+.testimonial-inner {
+  display: inline;
+  float: left;
+  width: 100%;
+  h2, p {
+    color: $white;
+  }
+
+}
+
+.testimonial-slider-area {
+  display: inline;
+  float: left;
+  margin-top: 20px;  
+  width: 100%;
+  position: relative;
+}
+
+.testimonial-slider {
+  display: inline;
+  float: left;  
+  width: 100%;
+}
+
+.single-testimonial {  
+  background-color: #fff;
+  border-radius: 2px;
+  margin: 0.5rem 0 1rem;
+  overflow: hidden;
+  padding: 15px;
+  position: relative;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.testimonial-content {
+  float: left;
+  display: inline;
+  font-size: .8em;
+  height: 200px;
+  i {
+    float: right;
+  }
+  h3 {
+    font-size: 2em;
+    margin-bottom: 0px;
+    margin-top: -10px;
+    text-align: left;
+    width: 100%;
+  }
+  span {
+    color: $font-gray;
+    display: block;
+    font-size: .8em;
+  }
+  p {
+    color: $black;
+    font-style: italic;
+  }
+}
+
+.prev2 {
+  left: -8%;
+  margin-top: 8.3%;
+  position: absolute;
+}
+
+
+.next2 {
+  margin-top: 8.3%;
+  position: absolute;
+  right: -6%;
+}

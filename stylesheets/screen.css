@@ -184,6 +184,29 @@ nav .brand-logo img {
   z-index: -1;
 }
 
+/* line 20, ../sass/layout/_parallax.scss */
+.sep {
+  background-attachment: fixed;
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  height: 450px;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* line 40, ../sass/layout/_parallax.scss */
+.about {
+  background-image: url("../img/office.jpg");
+}
+
 /*--------------------*/
 /* FOOTER */
 /*--------------------*/
@@ -474,7 +497,7 @@ nav .brand-logo img {
   display: inline;
   float: left;
   width: 100%;
-  padding: 0 0 60px;
+  padding: 0;
   background-color: #FFFFFF;
 }
 /* line 13, ../sass/modules/_cv.scss */
@@ -578,4 +601,110 @@ nav .brand-logo img {
 #cv .pro-bar {
   border-radius: 0px;
   height: 30px;
+}
+/* line 115, ../sass/modules/_cv.scss */
+#cv .client-row {
+  margin: 40px 0;
+}
+/* line 117, ../sass/modules/_cv.scss */
+#cv .client-row .client-logo {
+  height: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*--------------------*/
+/* TESTIMONIAL */
+/*--------------------*/
+/* line 6, ../sass/modules/_testimonial.scss */
+#testimonial {
+  display: inline;
+  padding: 60px 0;
+  float: left;
+  width: 100%;
+  background-color: #99D4A5;
+}
+
+/* line 15, ../sass/modules/_testimonial.scss */
+.testimonial-inner {
+  display: inline;
+  float: left;
+  width: 100%;
+}
+/* line 19, ../sass/modules/_testimonial.scss */
+.testimonial-inner h2, .testimonial-inner p {
+  color: #FFFFFF;
+}
+
+/* line 25, ../sass/modules/_testimonial.scss */
+.testimonial-slider-area {
+  display: inline;
+  float: left;
+  margin-top: 20px;
+  width: 100%;
+  position: relative;
+}
+
+/* line 33, ../sass/modules/_testimonial.scss */
+.testimonial-slider {
+  display: inline;
+  float: left;
+  width: 100%;
+}
+
+/* line 39, ../sass/modules/_testimonial.scss */
+.single-testimonial {
+  background-color: #fff;
+  border-radius: 2px;
+  margin: 0.5rem 0 1rem;
+  overflow: hidden;
+  padding: 15px;
+  position: relative;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+/* line 49, ../sass/modules/_testimonial.scss */
+.testimonial-content {
+  float: left;
+  display: inline;
+  font-size: .8em;
+  height: 200px;
+}
+/* line 54, ../sass/modules/_testimonial.scss */
+.testimonial-content i {
+  float: right;
+}
+/* line 57, ../sass/modules/_testimonial.scss */
+.testimonial-content h3 {
+  font-size: 2em;
+  margin-bottom: 0px;
+  margin-top: -10px;
+  text-align: left;
+  width: 100%;
+}
+/* line 64, ../sass/modules/_testimonial.scss */
+.testimonial-content span {
+  color: #666666;
+  display: block;
+  font-size: .8em;
+}
+/* line 69, ../sass/modules/_testimonial.scss */
+.testimonial-content p {
+  color: #000000;
+  font-style: italic;
+}
+
+/* line 75, ../sass/modules/_testimonial.scss */
+.prev2 {
+  left: -8%;
+  margin-top: 8.3%;
+  position: absolute;
+}
+
+/* line 82, ../sass/modules/_testimonial.scss */
+.next2 {
+  margin-top: 8.3%;
+  position: absolute;
+  right: -6%;
 }
