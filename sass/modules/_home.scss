@@ -5,18 +5,15 @@
 
 
 #home {
-  background-image: url("../img/home-bg");
+  background-image: url("../img/home-bg.jpg");
   background-position: 100% 100%;
   background-size: 100% 100%;
   display: inline;
   float: left;
-  height: 280px;
+  height: 380px;
   position: relative;
   width: 100%;
-  @include breakpoint($break-s-phablet) {
-    height: 360px;
-  }
-  @include breakpoint($break-lg-phablet) {
+  @include breakpoint($break-phablet) {
     height: 480px;
   }
   @include breakpoint($break-tablet) {
@@ -38,7 +35,10 @@
     text-align: center;
     position: relative;
     width: 100%;
-    padding: 10px; 
+    padding: 10px;
+    @include breakpoint($break-phablet) {
+      padding: 52px;
+    }
     @include breakpoint($break-tablet) {
       padding: 180px;
     }
@@ -46,17 +46,23 @@
       color: $white;
       font-size: 18px;
       font-weight: 300;
-      margin-bottom: 38px;
+      margin-bottom: 10px;
       text-transform: uppercase;
+      @include breakpoint($break-phablet) {
+        margin-bottom: 38px;
+      }
     }
   }
 
   .home-title{
     color: $white;
-    font-size: 30px;
+    font-size: 32px;
     font-weight: 700;
     margin: 15px 0;
     text-transform: uppercase;
+    @include breakpoint($break-phablet) {
+      font-size: 52px;
+    }
     @include breakpoint($break-tablet) {
       font-size: 72px;
     }

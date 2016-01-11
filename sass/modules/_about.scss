@@ -77,8 +77,10 @@
 }
 
 .resume-btn {
-  margin-top: 160px;
-  margin-left: 50px;
+  @include breakpoint($break-desktop) {
+      margin-top: 160px;
+      margin-left: 50px;
+  }
 }
 
 .pro-bar-container.color-default {

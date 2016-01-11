@@ -26,13 +26,14 @@
 nav .brand-logo {    
   font-weight: bold;  
   text-transform: uppercase;
-  @include breakpoint($break-xs-mobile) {
-    font-size: 1.1rem;
+  font-size: 1.1rem;
+  @include breakpoint($break-mobile) {
+    font-size: 1.4rem;
   }
-  @include breakpoint($break-s-phablet) {
+  @include breakpoint($break-phablet) {
     font-size: 1.8rem;
   }
-  @include breakpoint($break-lg-phablet) {
+  @include breakpoint($break-tablet) {
     font-size: 2.1rem;
   }
   img {

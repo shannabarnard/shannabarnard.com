@@ -110,46 +110,47 @@ small {
 nav .brand-logo {
   font-weight: bold;
   text-transform: uppercase;
+  font-size: 1.1rem;
 }
-@media (min-width: 320px) {
+@media (min-width: 480px) {
   /* line 26, ../sass/layout/_nav.scss */
   nav .brand-logo {
-    font-size: 1.1rem;
+    font-size: 1.4rem;
   }
 }
-@media (min-width: 550px) {
+@media (min-width: 600px) {
   /* line 26, ../sass/layout/_nav.scss */
   nav .brand-logo {
     font-size: 1.8rem;
   }
 }
-@media (min-width: 668px) {
+@media (min-width: 991px) {
   /* line 26, ../sass/layout/_nav.scss */
   nav .brand-logo {
     font-size: 2.1rem;
   }
 }
-/* line 38, ../sass/layout/_nav.scss */
+/* line 39, ../sass/layout/_nav.scss */
 nav .brand-logo img {
   height: 45px;
   margin-top: 10px;
 }
 
-/* line 44, ../sass/layout/_nav.scss */
+/* line 45, ../sass/layout/_nav.scss */
 .side-nav a {
   text-transform: uppercase;
 }
-/* line 46, ../sass/layout/_nav.scss */
+/* line 47, ../sass/layout/_nav.scss */
 .side-nav a li:hover, .side-nav a li.active {
   background-color: #78ADC9;
   color: #FFFFFF;
 }
-/* line 50, ../sass/layout/_nav.scss */
+/* line 51, ../sass/layout/_nav.scss */
 .side-nav a a:hover {
   color: #FFFFFF;
 }
 
-/* line 55, ../sass/layout/_nav.scss */
+/* line 56, ../sass/layout/_nav.scss */
 .progress .indeterminate {
   background-color: #78ADC9;
 }
@@ -234,51 +235,88 @@ nav .brand-logo img {
 /* line 10, ../sass/layout/_footer.scss */
 #footer .footer-top {
   display: inline;
-  padding: 150px 0;
+  padding: 80px 0;
   float: left;
   width: 100%;
   background-color: #4C8EB4;
   background-image: url("../img/footer.png");
   background-position: right bottom;
-  background-size: 650px auto;
+  background-size: 260px auto;
   background-repeat: no-repeat;
 }
-/* line 22, ../sass/layout/_footer.scss */
+@media (min-width: 480px) {
+  /* line 10, ../sass/layout/_footer.scss */
+  #footer .footer-top {
+    background-size: 300px auto;
+  }
+}
+@media (min-width: 600px) {
+  /* line 10, ../sass/layout/_footer.scss */
+  #footer .footer-top {
+    background-size: 400px auto;
+  }
+}
+@media (min-width: 991px) {
+  /* line 10, ../sass/layout/_footer.scss */
+  #footer .footer-top {
+    background-size: 550px auto;
+  }
+}
+@media (min-width: 1199px) {
+  /* line 10, ../sass/layout/_footer.scss */
+  #footer .footer-top {
+    background-size: 650px auto;
+  }
+}
+/* line 34, ../sass/layout/_footer.scss */
 #footer .footer-top-inner {
   display: inline;
   float: left;
   width: 100%;
 }
-/* line 26, ../sass/layout/_footer.scss */
+/* line 38, ../sass/layout/_footer.scss */
 #footer .footer-top-inner h2 {
   color: #FFFFFF;
 }
-/* line 29, ../sass/layout/_footer.scss */
+/* line 41, ../sass/layout/_footer.scss */
 #footer .footer-top-inner p {
   color: #FFFFFF;
 }
-/* line 34, ../sass/layout/_footer.scss */
+/* line 46, ../sass/layout/_footer.scss */
 #footer ul li {
-  font-size: 2em;
+  font-size: 1.2em;
   line-height: 2em;
   color: #FFFFFF;
 }
-/* line 39, ../sass/layout/_footer.scss */
+@media (min-width: 991px) {
+  /* line 46, ../sass/layout/_footer.scss */
+  #footer ul li {
+    font-size: 2em;
+    line-height: 2em;
+  }
+}
+/* line 54, ../sass/layout/_footer.scss */
 #footer ul li a {
   color: #FFFFFF;
 }
-/* line 41, ../sass/layout/_footer.scss */
+/* line 56, ../sass/layout/_footer.scss */
 #footer ul li a:hover {
   text-decoration: underline;
 }
-/* line 47, ../sass/layout/_footer.scss */
+/* line 62, ../sass/layout/_footer.scss */
 #footer .contact {
   display: inline;
   float: left;
-  margin-top: 50px;
+  margin-top: 10px;
   width: 100%;
 }
-/* line 54, ../sass/layout/_footer.scss */
+@media (min-width: 991px) {
+  /* line 62, ../sass/layout/_footer.scss */
+  #footer .contact {
+    margin-top: 50px;
+  }
+}
+/* line 72, ../sass/layout/_footer.scss */
 #footer .contact-map {
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   border-radius: 4px;
@@ -287,19 +325,19 @@ nav .brand-logo img {
   float: left;
   width: 100%;
 }
-/* line 61, ../sass/layout/_footer.scss */
+/* line 79, ../sass/layout/_footer.scss */
 #footer .contact-map iframe {
   border-radius: 4px;
   margin-bottom: -5px;
 }
-/* line 67, ../sass/layout/_footer.scss */
+/* line 85, ../sass/layout/_footer.scss */
 #footer .footer-bottom {
   background-color: #78ADC9;
   display: inline;
   float: left;
   width: 100%;
 }
-/* line 74, ../sass/layout/_footer.scss */
+/* line 92, ../sass/layout/_footer.scss */
 #footer .footer-inner {
   display: inline;
   float: left;
@@ -308,7 +346,7 @@ nav .brand-logo img {
   text-align: center;
   width: 100%;
 }
-/* line 83, ../sass/layout/_footer.scss */
+/* line 101, ../sass/layout/_footer.scss */
 #footer .design-info {
   color: #555555;
   display: inline-block;
@@ -316,11 +354,11 @@ nav .brand-logo img {
   line-height: 25px;
   margin-top: 20px;
 }
-/* line 89, ../sass/layout/_footer.scss */
+/* line 107, ../sass/layout/_footer.scss */
 #footer .design-info a {
   color: #555555;
 }
-/* line 94, ../sass/layout/_footer.scss */
+/* line 112, ../sass/layout/_footer.scss */
 #footer .copyright-info {
   color: #555555;
   display: inline-block;
@@ -328,18 +366,18 @@ nav .brand-logo img {
   font-size: 14px;
   line-height: 25px;
 }
-/* line 102, ../sass/layout/_footer.scss */
+/* line 120, ../sass/layout/_footer.scss */
 #footer .up-btn {
   color: #FFFFFF;
-  left: 47.7%;
+  left: 45%;
   position: absolute;
   top: -28px;
 }
-/* line 107, ../sass/layout/_footer.scss */
+/* line 125, ../sass/layout/_footer.scss */
 #footer .up-btn i {
   color: #000000;
 }
-/* line 110, ../sass/layout/_footer.scss */
+/* line 128, ../sass/layout/_footer.scss */
 #footer .up-btn:hover, #footer .up-btn:focus {
   background-color: #4C8EB4;
 }
@@ -349,28 +387,22 @@ nav .brand-logo img {
 /*--------------------*/
 /* line 7, ../sass/modules/_home.scss */
 #home {
-  background-image: url("../img/home-bg");
+  background-image: url("../img/home-bg.jpg");
   background-position: 100% 100%;
   background-size: 100% 100%;
   display: inline;
   float: left;
-  height: 280px;
+  height: 380px;
   position: relative;
   width: 100%;
 }
-@media (min-width: 550px) {
-  /* line 7, ../sass/modules/_home.scss */
-  #home {
-    height: 360px;
-  }
-}
-@media (min-width: 668px) {
+@media (min-width: 600px) {
   /* line 7, ../sass/modules/_home.scss */
   #home {
     height: 480px;
   }
 }
-@media (min-width: 767px) {
+@media (min-width: 991px) {
   /* line 7, ../sass/modules/_home.scss */
   #home {
     height: 560px;
@@ -382,13 +414,13 @@ nav .brand-logo img {
     height: 600px;
   }
 }
-/* line 29, ../sass/modules/_home.scss */
+/* line 26, ../sass/modules/_home.scss */
 #home .overlay-section {
   background: rgba(0, 0, 0, 0.6) none repeat scroll 0 0;
   height: 100%;
   width: 100%;
 }
-/* line 35, ../sass/modules/_home.scss */
+/* line 32, ../sass/modules/_home.scss */
 #home .home-inner {
   display: inline;
   float: left;
@@ -397,8 +429,14 @@ nav .brand-logo img {
   width: 100%;
   padding: 10px;
 }
-@media (min-width: 767px) {
-  /* line 35, ../sass/modules/_home.scss */
+@media (min-width: 600px) {
+  /* line 32, ../sass/modules/_home.scss */
+  #home .home-inner {
+    padding: 52px;
+  }
+}
+@media (min-width: 991px) {
+  /* line 32, ../sass/modules/_home.scss */
   #home .home-inner {
     padding: 180px;
   }
@@ -408,34 +446,46 @@ nav .brand-logo img {
   color: #FFFFFF;
   font-size: 18px;
   font-weight: 300;
-  margin-bottom: 38px;
+  margin-bottom: 10px;
   text-transform: uppercase;
 }
-/* line 54, ../sass/modules/_home.scss */
+@media (min-width: 600px) {
+  /* line 45, ../sass/modules/_home.scss */
+  #home .home-inner p {
+    margin-bottom: 38px;
+  }
+}
+/* line 57, ../sass/modules/_home.scss */
 #home .home-title {
   color: #FFFFFF;
-  font-size: 30px;
+  font-size: 32px;
   font-weight: 700;
   margin: 15px 0;
   text-transform: uppercase;
 }
-@media (min-width: 767px) {
-  /* line 54, ../sass/modules/_home.scss */
+@media (min-width: 600px) {
+  /* line 57, ../sass/modules/_home.scss */
+  #home .home-title {
+    font-size: 52px;
+  }
+}
+@media (min-width: 991px) {
+  /* line 57, ../sass/modules/_home.scss */
   #home .home-title {
     font-size: 72px;
   }
 }
-/* line 63, ../sass/modules/_home.scss */
+/* line 69, ../sass/modules/_home.scss */
 #home .home-title span {
   color: #78ADC9;
 }
-/* line 67, ../sass/modules/_home.scss */
+/* line 73, ../sass/modules/_home.scss */
 #home .call-to-about {
   bottom: 0;
   left: 47.5%;
   position: absolute;
 }
-/* line 71, ../sass/modules/_home.scss */
+/* line 77, ../sass/modules/_home.scss */
 #home .call-to-about i {
   color: #78ADC9;
 }
@@ -523,18 +573,20 @@ nav .brand-logo img {
   padding-bottom: 12px;
 }
 
-/* line 79, ../sass/modules/_about.scss */
-.resume-btn {
-  margin-top: 160px;
-  margin-left: 50px;
+@media (min-width: 1199px) {
+  /* line 79, ../sass/modules/_about.scss */
+  .resume-btn {
+    margin-top: 160px;
+    margin-left: 50px;
+  }
 }
 
-/* line 84, ../sass/modules/_about.scss */
+/* line 86, ../sass/modules/_about.scss */
 .pro-bar-container.color-default {
   background-color: #EEEEEE;
 }
 
-/* line 88, ../sass/modules/_about.scss */
+/* line 90, ../sass/modules/_about.scss */
 .custom-icon {
   width: 4em;
   height: auto;
@@ -553,53 +605,67 @@ nav .brand-logo img {
 }
 /* line 13, ../sass/modules/_cv.scss */
 #cv .skill-block {
-  padding: 50px 50px 0 !important;
+  padding: 50px 0 0 !important;
   text-align: center;
+  color: #000000;
 }
-/* line 19, ../sass/modules/_cv.scss */
+/* line 20, ../sass/modules/_cv.scss */
 #cv #experiance li {
   width: 100%;
   z-index: 2;
   position: relative;
   float: left;
 }
-/* line 26, ../sass/modules/_cv.scss */
+/* line 27, ../sass/modules/_cv.scss */
 #cv #experiance .year {
   font-size: .8em;
   color: #666666;
-  width: 10%;
+  width: 100%;
+  text-align: right;
   background: #FFFFFF;
-  padding: 10px;
   display: inline-block;
 }
-/* line 35, ../sass/modules/_cv.scss */
+@media (min-width: 991px) {
+  /* line 27, ../sass/modules/_cv.scss */
+  #cv #experiance .year {
+    text-align: left;
+    width: 10%;
+  }
+}
+/* line 40, ../sass/modules/_cv.scss */
 #cv #experiance .description {
-  width: 90%;
-  float: right;
+  width: 100%;
   display: inline-block;
   background: #eee;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   position: relative;
   padding: 10px 10px 0;
   border-bottom: 1px solid #ddd;
 }
-/* line 46, ../sass/modules/_cv.scss */
+@media (min-width: 991px) {
+  /* line 40, ../sass/modules/_cv.scss */
+  #cv #experiance .description {
+    width: 90%;
+    float: right;
+  }
+}
+/* line 54, ../sass/modules/_cv.scss */
 #cv #experiance h3 {
   font-size: 1.3em;
   line-height: 1.4em;
   margin: 0;
 }
-/* line 51, ../sass/modules/_cv.scss */
+/* line 59, ../sass/modules/_cv.scss */
 #cv #experiance h4 {
   font-size: 1.1em;
   line-height: 1.2em;
   margin: 1em 0 0;
 }
-/* line 56, ../sass/modules/_cv.scss */
+/* line 64, ../sass/modules/_cv.scss */
 #cv #experiance p {
   font-size: .8em;
 }
-/* line 62, ../sass/modules/_cv.scss */
+/* line 70, ../sass/modules/_cv.scss */
 #cv #skill .btn-ghost {
   border: 1px solid #ddd;
   background: #EEEEEE;
@@ -607,20 +673,20 @@ nav .brand-logo img {
   margin: 0 .1em .3em 0;
   display: inline-block;
 }
-/* line 71, ../sass/modules/_cv.scss */
+/* line 79, ../sass/modules/_cv.scss */
 #cv .skill-inner {
   display: inline;
   float: left;
   width: 100%;
 }
-/* line 75, ../sass/modules/_cv.scss */
+/* line 83, ../sass/modules/_cv.scss */
 #cv .skill-inner p {
   color: #727272;
   font-size: 16px;
   line-height: 30px;
   font-weight: 400;
 }
-/* line 83, ../sass/modules/_cv.scss */
+/* line 91, ../sass/modules/_cv.scss */
 #cv .title {
   font-size: 28px;
   font-weight: 700;
@@ -628,13 +694,13 @@ nav .brand-logo img {
   margin-bottom: 35px;
   text-transform: uppercase;
 }
-/* line 91, ../sass/modules/_cv.scss */
+/* line 99, ../sass/modules/_cv.scss */
 #cv .skill-progress-bar {
   display: inline;
   float: left;
   width: 100%;
 }
-/* line 95, ../sass/modules/_cv.scss */
+/* line 103, ../sass/modules/_cv.scss */
 #cv .skill-progress-bar span {
   color: #727272;
   display: inline-block;
@@ -643,32 +709,39 @@ nav .brand-logo img {
   margin-bottom: 5px;
   text-transform: uppercase;
 }
-/* line 105, ../sass/modules/_cv.scss */
+/* line 113, ../sass/modules/_cv.scss */
 #cv .pro-bar-container {
   border-radius: 0;
   height: 30px;
 }
-/* line 110, ../sass/modules/_cv.scss */
+/* line 118, ../sass/modules/_cv.scss */
 #cv .pro-bar {
   border-radius: 0px;
   height: 30px;
 }
-/* line 115, ../sass/modules/_cv.scss */
+/* line 123, ../sass/modules/_cv.scss */
 #cv .client-row {
   margin: 40px 0;
 }
-/* line 117, ../sass/modules/_cv.scss */
+/* line 125, ../sass/modules/_cv.scss */
 #cv .client-row .client-logo {
-  height: 50px;
+  height: 32px;
+  margin-bottom: 15px;
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+@media (min-width: 991px) {
+  /* line 125, ../sass/modules/_cv.scss */
+  #cv .client-row .client-logo {
+    height: 50px;
+  }
 }
 
 /*--------------------*/
 /* TESTIMONIAL */
 /*--------------------*/
-/* line 6, ../sass/modules/_testimonial.scss */
+/* line 5, ../sass/modules/_testimonial.scss */
 #testimonial {
   display: inline;
   padding: 60px 0;
@@ -677,18 +750,18 @@ nav .brand-logo img {
   background-color: #99D4A5;
 }
 
-/* line 15, ../sass/modules/_testimonial.scss */
+/* line 13, ../sass/modules/_testimonial.scss */
 .testimonial-inner {
   display: inline;
   float: left;
   width: 100%;
 }
-/* line 19, ../sass/modules/_testimonial.scss */
+/* line 17, ../sass/modules/_testimonial.scss */
 .testimonial-inner h2, .testimonial-inner p {
   color: #FFFFFF;
 }
 
-/* line 25, ../sass/modules/_testimonial.scss */
+/* line 22, ../sass/modules/_testimonial.scss */
 .testimonial-slider-area {
   display: inline;
   float: left;
@@ -697,65 +770,143 @@ nav .brand-logo img {
   position: relative;
 }
 
-/* line 33, ../sass/modules/_testimonial.scss */
+/* line 30, ../sass/modules/_testimonial.scss */
 .testimonial-slider {
   display: inline;
   float: left;
   width: 100%;
 }
 
-/* line 39, ../sass/modules/_testimonial.scss */
+/* line 36, ../sass/modules/_testimonial.scss */
 .single-testimonial {
   background-color: #fff;
   border-radius: 2px;
   margin: 0.5rem 0 1rem;
   overflow: hidden;
-  padding: 15px;
+  padding: 35px;
   position: relative;
+  margin-left: 20px;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
+@media (min-width: 600px) {
+  /* line 36, ../sass/modules/_testimonial.scss */
+  .single-testimonial {
+    padding: 15px;
+  }
+}
 
-/* line 49, ../sass/modules/_testimonial.scss */
+/* line 50, ../sass/modules/_testimonial.scss */
 .testimonial-content {
   float: left;
   display: inline;
   font-size: .8em;
-  height: 200px;
 }
-/* line 54, ../sass/modules/_testimonial.scss */
+@media (min-width: 600px) {
+  /* line 50, ../sass/modules/_testimonial.scss */
+  .testimonial-content {
+    height: 380px;
+  }
+}
+@media (min-width: 991px) {
+  /* line 50, ../sass/modules/_testimonial.scss */
+  .testimonial-content {
+    height: 260px;
+  }
+}
+@media (min-width: 1199px) {
+  /* line 50, ../sass/modules/_testimonial.scss */
+  .testimonial-content {
+    height: 240px;
+  }
+}
+/* line 63, ../sass/modules/_testimonial.scss */
 .testimonial-content i {
   float: right;
+  margin: 0 0 20px 20px;
 }
-/* line 57, ../sass/modules/_testimonial.scss */
+/* line 67, ../sass/modules/_testimonial.scss */
 .testimonial-content h3 {
   font-size: 2em;
-  margin-bottom: 0px;
-  margin-top: -10px;
+  line-height: 1em;
+  margin: 0 0 10px;
   text-align: left;
   width: 100%;
 }
-/* line 64, ../sass/modules/_testimonial.scss */
+/* line 74, ../sass/modules/_testimonial.scss */
 .testimonial-content span {
   color: #666666;
   display: block;
   font-size: .8em;
 }
-/* line 69, ../sass/modules/_testimonial.scss */
+/* line 79, ../sass/modules/_testimonial.scss */
 .testimonial-content p {
   color: #000000;
   font-style: italic;
 }
 
-/* line 75, ../sass/modules/_testimonial.scss */
+/* line 85, ../sass/modules/_testimonial.scss */
 .prev2 {
-  left: -8%;
-  margin-top: 8.3%;
+  margin-top: 42%;
+  left: -6%;
   position: absolute;
 }
+@media (min-width: 480px) {
+  /* line 85, ../sass/modules/_testimonial.scss */
+  .prev2 {
+    margin-top: 28%;
+    left: -5%;
+  }
+}
+@media (min-width: 600px) {
+  /* line 85, ../sass/modules/_testimonial.scss */
+  .prev2 {
+    margin-top: 25%;
+    left: -8%;
+  }
+}
+@media (min-width: 991px) {
+  /* line 85, ../sass/modules/_testimonial.scss */
+  .prev2 {
+    margin-top: 15%;
+  }
+}
+@media (min-width: 1199px) {
+  /* line 85, ../sass/modules/_testimonial.scss */
+  .prev2 {
+    margin-top: 8%;
+    left: -6%;
+  }
+}
 
-/* line 82, ../sass/modules/_testimonial.scss */
+/* line 106, ../sass/modules/_testimonial.scss */
 .next2 {
-  margin-top: 8.3%;
+  margin-top: 42%;
+  right: -4.5%;
   position: absolute;
-  right: -6%;
+}
+@media (min-width: 480px) {
+  /* line 106, ../sass/modules/_testimonial.scss */
+  .next2 {
+    margin-top: 28%;
+  }
+}
+@media (min-width: 600px) {
+  /* line 106, ../sass/modules/_testimonial.scss */
+  .next2 {
+    margin-top: 25%;
+    right: -8%;
+  }
+}
+@media (min-width: 991px) {
+  /* line 106, ../sass/modules/_testimonial.scss */
+  .next2 {
+    margin-top: 15%;
+  }
+}
+@media (min-width: 1199px) {
+  /* line 106, ../sass/modules/_testimonial.scss */
+  .next2 {
+    margin-top: 8%;
+    right: -6%;
+  }
 }

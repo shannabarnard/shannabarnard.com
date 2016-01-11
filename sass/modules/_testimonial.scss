@@ -2,7 +2,6 @@
 /* TESTIMONIAL */
 /*--------------------*/
 
-
 #testimonial {
   display: inline;
   padding: 60px 0; 
@@ -11,7 +10,6 @@
   background-color: #99D4A5;
 }
 
-
 .testimonial-inner {
   display: inline;
   float: left;
@@ -19,7 +17,6 @@
   h2, p {
     color: $white;
   }
-
 }
 
 .testimonial-slider-area {
@@ -41,23 +38,36 @@
   border-radius: 2px;
   margin: 0.5rem 0 1rem;
   overflow: hidden;
-  padding: 15px;
+  padding: 35px;
   position: relative;
+  margin-left: 20px;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  @include breakpoint($break-phablet) {
+    padding:15px;
+  }
 }
 
 .testimonial-content {
   float: left;
   display: inline;
   font-size: .8em;
-  height: 200px;
+  @include breakpoint($break-phablet) {
+    height: 380px;
+  }
+  @include breakpoint($break-tablet) {
+    height: 260px;
+  }
+  @include breakpoint($break-desktop) {
+    height: 240px;
+  }
   i {
     float: right;
+    margin: 0 0 20px 20px;
   }
   h3 {
     font-size: 2em;
-    margin-bottom: 0px;
-    margin-top: -10px;
+    line-height: 1em;
+    margin: 0 0 10px;
     text-align: left;
     width: 100%;
   }
@@ -73,14 +83,42 @@
 }
 
 .prev2 {
-  left: -8%;
-  margin-top: 8.3%;
+  margin-top: 42%;
+  left: -6%;
   position: absolute;
+  @include breakpoint($break-mobile) {
+    margin-top: 28%;
+    left: -5%;
+  }
+  @include breakpoint($break-phablet) {
+    margin-top: 25%;
+    left: -8%;
+  }
+  @include breakpoint($break-tablet) {
+    margin-top: 15%;
+  }
+  @include breakpoint($break-desktop) {
+    margin-top: 8%;
+    left: -6%;
+  }
 }
 
-
 .next2 {
-  margin-top: 8.3%;
+  margin-top: 42%;
+  right: -4.5%;
   position: absolute;
-  right: -6%;
+  @include breakpoint($break-mobile) {
+    margin-top: 28%;
+  }
+  @include breakpoint($break-phablet) {
+    margin-top: 25%;
+    right: -8%;
+  }
+  @include breakpoint($break-tablet) {
+    margin-top: 15%;
+  }
+  @include breakpoint($break-desktop) {
+    margin-top: 8%;
+    right: -6%;
+  }
 }
