@@ -1,3 +1,4 @@
+// Colours
 $primary-color: #78ADC9;
 $white: #FFFFFF;
 $black: #000000;
@@ -5,3 +6,21 @@ $dark-gray: #3B3B3B;
 $mid-gray: #555555;
 $font-gray: #666666;
 $light-gray: #EEEEEE;
+
+// Breakpoint
+$break-xs-mobile: 320px;
+$break-mobile: 360px;
+$break-s-phablet: 550px;
+$break-lg-phablet: 668px;
+$break-tablet: 767px;
+$break-lg-tablet: 991px;
+$break-desktop: 1199px;
+$break-lg-desktop: 1600px;
+
+// @include breakpoint($break-xs-mobile) {}
+// @include breakpoint($break-mobile) {}
+// @include breakpoint($break-phablet) {}
+// @include breakpoint($break-tablet) {}
+// @include breakpoint($break-lg-tablet) {}
+// @include breakpoint($break-desktop) {}
+// @include breakpoint($break-lg-desktop) {}

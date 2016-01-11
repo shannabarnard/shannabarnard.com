@@ -80,9 +80,6 @@ small {
 }
 
 /*--------------------*/
-/* RESPONSIVE STYLE */
-/*--------------------*/
-/*--------------------*/
 /* NAV */
 /*--------------------*/
 /* line 5, ../sass/layout/_nav.scss */
@@ -114,27 +111,45 @@ nav .brand-logo {
   font-weight: bold;
   text-transform: uppercase;
 }
-/* line 29, ../sass/layout/_nav.scss */
+@media (min-width: 320px) {
+  /* line 26, ../sass/layout/_nav.scss */
+  nav .brand-logo {
+    font-size: 1.1rem;
+  }
+}
+@media (min-width: 550px) {
+  /* line 26, ../sass/layout/_nav.scss */
+  nav .brand-logo {
+    font-size: 1.8rem;
+  }
+}
+@media (min-width: 668px) {
+  /* line 26, ../sass/layout/_nav.scss */
+  nav .brand-logo {
+    font-size: 2.1rem;
+  }
+}
+/* line 38, ../sass/layout/_nav.scss */
 nav .brand-logo img {
   height: 45px;
   margin-top: 10px;
 }
 
-/* line 35, ../sass/layout/_nav.scss */
+/* line 44, ../sass/layout/_nav.scss */
 .side-nav a {
   text-transform: uppercase;
 }
-/* line 37, ../sass/layout/_nav.scss */
+/* line 46, ../sass/layout/_nav.scss */
 .side-nav a li:hover, .side-nav a li.active {
   background-color: #78ADC9;
   color: #FFFFFF;
 }
-/* line 41, ../sass/layout/_nav.scss */
+/* line 50, ../sass/layout/_nav.scss */
 .side-nav a a:hover {
   color: #FFFFFF;
 }
 
-/* line 46, ../sass/layout/_nav.scss */
+/* line 55, ../sass/layout/_nav.scss */
 .progress .indeterminate {
   background-color: #78ADC9;
 }
@@ -339,26 +354,56 @@ nav .brand-logo img {
   background-size: 100% 100%;
   display: inline;
   float: left;
-  height: 600px;
+  height: 280px;
   position: relative;
   width: 100%;
 }
-/* line 17, ../sass/modules/_home.scss */
+@media (min-width: 550px) {
+  /* line 7, ../sass/modules/_home.scss */
+  #home {
+    height: 360px;
+  }
+}
+@media (min-width: 668px) {
+  /* line 7, ../sass/modules/_home.scss */
+  #home {
+    height: 480px;
+  }
+}
+@media (min-width: 767px) {
+  /* line 7, ../sass/modules/_home.scss */
+  #home {
+    height: 560px;
+  }
+}
+@media (min-width: 1199px) {
+  /* line 7, ../sass/modules/_home.scss */
+  #home {
+    height: 600px;
+  }
+}
+/* line 29, ../sass/modules/_home.scss */
 #home .overlay-section {
   background: rgba(0, 0, 0, 0.6) none repeat scroll 0 0;
   height: 100%;
   width: 100%;
 }
-/* line 23, ../sass/modules/_home.scss */
+/* line 35, ../sass/modules/_home.scss */
 #home .home-inner {
   display: inline;
   float: left;
-  padding: 180px;
   text-align: center;
   position: relative;
   width: 100%;
+  padding: 10px;
 }
-/* line 30, ../sass/modules/_home.scss */
+@media (min-width: 767px) {
+  /* line 35, ../sass/modules/_home.scss */
+  #home .home-inner {
+    padding: 180px;
+  }
+}
+/* line 45, ../sass/modules/_home.scss */
 #home .home-inner p {
   color: #FFFFFF;
   font-size: 18px;
@@ -366,25 +411,31 @@ nav .brand-logo img {
   margin-bottom: 38px;
   text-transform: uppercase;
 }
-/* line 39, ../sass/modules/_home.scss */
+/* line 54, ../sass/modules/_home.scss */
 #home .home-title {
   color: #FFFFFF;
-  font-size: 72px;
+  font-size: 30px;
   font-weight: 700;
   margin: 15px 0;
   text-transform: uppercase;
 }
-/* line 45, ../sass/modules/_home.scss */
+@media (min-width: 767px) {
+  /* line 54, ../sass/modules/_home.scss */
+  #home .home-title {
+    font-size: 72px;
+  }
+}
+/* line 63, ../sass/modules/_home.scss */
 #home .home-title span {
   color: #78ADC9;
 }
-/* line 49, ../sass/modules/_home.scss */
+/* line 67, ../sass/modules/_home.scss */
 #home .call-to-about {
   bottom: 0;
   left: 47.5%;
   position: absolute;
 }
-/* line 53, ../sass/modules/_home.scss */
+/* line 71, ../sass/modules/_home.scss */
 #home .call-to-about i {
   color: #78ADC9;
 }

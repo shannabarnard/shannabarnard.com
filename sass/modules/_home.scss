@@ -10,9 +10,21 @@
   background-size: 100% 100%;
   display: inline;
   float: left;
-  height: 600px;
+  height: 280px;
   position: relative;
   width: 100%;
+  @include breakpoint($break-s-phablet) {
+    height: 360px;
+  }
+  @include breakpoint($break-lg-phablet) {
+    height: 480px;
+  }
+  @include breakpoint($break-tablet) {
+    height: 560px;
+  }
+  @include breakpoint($break-desktop) {
+    height: 600px;
+  }
 
   .overlay-section {
     background: rgba(0, 0, 0, 0.6) none repeat scroll 0 0;
@@ -23,10 +35,13 @@
   .home-inner {
     display: inline;
     float: left;
-    padding: 180px;
     text-align: center;
     position: relative;
     width: 100%;
+    padding: 10px; 
+    @include breakpoint($break-tablet) {
+      padding: 180px;
+    }
     p {
       color: $white;
       font-size: 18px;
@@ -38,10 +53,13 @@
 
   .home-title{
     color: $white;
-    font-size: 72px;
+    font-size: 30px;
     font-weight: 700;
     margin: 15px 0;
     text-transform: uppercase;
+    @include breakpoint($break-tablet) {
+      font-size: 72px;
+    }
     span{
       color: $primary-color;
     }

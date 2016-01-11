@@ -1,3 +1,183 @@
 /*--------------------*/
 /* RESPONSIVE STYLE */
 /*--------------------*/
+
+
+@media screen and (max-width: 1199px) {
+  .custom-nav li a { padding: 25px 15px;}
+  .prev {margin-top: 20%;}
+  .next {margin-top: 20%;}
+  .prev1 {margin-top: 20%;}
+  .next1 {margin-top: 20%;}
+  .prev2 {margin-top: 13.5%;}
+  .next2 {margin-top: 13.5%;}
+  .contact-map{height: 492px;}
+
+  
+}
+
+
+@media screen and (max-width: 991px) {
+  .home-inner {padding: 30px;}
+  .home-title {font-size: 55px;}
+  .call-to-about {bottom: -95px;}
+  .resume-btn { margin-top: 30px;}
+  .prev {margin-top: 28%;}
+  .next {margin-top: 28%;}
+  .prev1 {margin-top: 28%;}
+  .next1 {margin-top: 28%;}
+  #portfolio-list .mix {height: 240px;}
+  .prev2 {margin-top: 24.5%;left: -12%;}
+  .next2 {margin-top: 24.5%;right: -8.5%;}
+  .blog-post-content h2, .blog-post-content h2 a {font-size: 16px;}
+  .card .card-content p {font-size: 13px;}
+  .card .card-action a {margin-right: 0px;}
+  .contact-map{height: 484px;}
+  .call-to-about {left: 45.5%;}
+  .up-btn {left: 45.5%;}
+  .custom-nav li a { padding: 25px 20px;}
+
+}
+
+
+@media screen and (max-width: 767px) {
+  #home {height: 500px;}
+  nav .brand-logo img {height: 40px; margin-top: 12px;}
+  .home-inner { padding: 10px;}
+  .home-title {font-size: 35px;}
+  .single-facts {padding: 15px;}
+  .counter {font-size: 40px;}
+  #blog-details{ display: table;}
+  .left-sidebar{display: table-footer-group;float: none !important;}
+  .swith-to-left{display: table-header-group;float: none !important;}
+  .header-title {font-size: 30px;}
+  .single-sidebar h3 {font-size: 18px;}
+  .recent-img {height: 45px;width: 30%;}
+  .recent-body {width: 65%;}
+  .recent-body h4 {font-size: 13px;}
+  .recent-body p {font-size: 12px;}
+  .cat-item a {font-size: 12px;}
+  .archives li a {font-size: 12px;}
+  .tagcloud a {font-size: 12px;}
+  .blog-content h1 {font-size: 35px;  }
+  .blog-content h2{font-size: 30px;}
+  .blog-content h3 {font-size: 21px;}
+  .blog-content h4 {font-size: 18px;}
+  .blog-content h5{font-size: 15px;}
+  .blog-content p{font-size: 13px;}
+  .blog-content blockquote p {font-size: 15px;}
+  .blog-post-content h2, .blog-post-content h2 a {font-size: 15px;}
+  .related-post h2 {font-size: 25px;}
+  .single-meta {font-size: 12px;}
+  .card .card-content p {font-size: 11px;}
+  .post-comment i {font-size: 13px;}
+  .post-comment span {font-size: 10px;}
+  .readmore-btn {font-size: 11px;}
+  .author-name {font-size: 18px;}
+  .pagination li {height: 25px;width: 25px;}
+  .custom-pagination li a {font-size: 12px;line-height: 25px;}
+
+}
+
+
+@media screen and (max-width: 480px) {
+  #home {height: 300px;}
+  nav .brand-logo { font-size: 1.1rem; }
+  nav .brand-logo img {height: 35px;margin-top: 12px;}
+  .side-nav {width: 200px;}
+  .side-nav a {height: 45px;line-height: 50px;}
+  .home-inner { padding: 0;}
+  .home-title {font-size: 35px !important;}
+  .home-inner > p {font-size: 16px;}
+  .about-inner-left {margin-bottom: 20px;}
+  .about-inner-right > h3 { font-size: 20px;}
+  .about-inner-right > p { font-size: 13px;}
+  .personal-information > h3 {font-size: 20px;}
+  .personal-information ul li {font-size: 13px;}
+  .title {font-size: 25px;line-height: 1; margin-bottom: 30px;}
+  .skill-inner p {font-size: 13px;line-height: 25px;}
+  .skill-progress-bar span { font-size: 15px;}
+  .experience-inner > p {font-size: 13px;line-height: 25px;}
+  .prev { margin-top: 49%;}
+  .next{margin-top: 49%;}
+  .prev1 { margin-top: 49%;}
+  .next1{margin-top: 49%;}
+  .filter {margin-bottom: 5px;margin-right: 5px;}
+  #portfolio-list .mix {height: 250px; margin-bottom: 15px; width: 100%;}
+  .single-facts {margin-bottom: 25px;}
+  .contact-map {height: 350px;margin-top: 30px;}
+  .prev2 { margin-top: 30.5%;}
+  .next2 {margin-top: 30.5%;}
+  .design-info {text-align: center;width: 100%;margin-top: 15px;margin-bottom: 0px;}
+  .copyright-info {text-align: center; width: 100%;margin-top: 5px;}
+  .call-to-about {left: 43%;bottom: -165px;}
+  .up-btn {left: 43%;}
+  .header-title { font-size: 20px;}
+  .recent-img {height: 70px;width: 25%;}
+  .recent-body {width: 70%;}
+  .recent-body h4 {font-size: 16px;}
+  .recent-body p {font-size: 14px;}
+  .cat-item a {font-size: 14px;}
+  .archives li a {font-size: 14px;}
+  .tagcloud a {font-size: 14px;}
+  .tag-area {margin-top: 20px;}
+  .blog-post-content h2, .blog-post-content h2 a {font-size: 16px;}
+  .related-post h2 {font-size: 25px;}
+  .single-meta {font-size: 13px;}
+  .card .card-content p {font-size: 13px;}
+  .post-comment i {font-size: 20px;}
+  .post-comment span {font-size: 16px;}
+  .readmore-btn {font-size: 13px;}
+  .author-name {font-size: 18px;}
+  .pagination li {height: 25px;width: 25px;}
+  .custom-pagination li a {font-size: 12px;line-height: 25px;}
+  .blog-head h1 {font-size: 30px;}
+
+}
+
+
+@media screen and (max-width: 360px) {
+  nav .brand-logo img {height: 27px;margin-top: 16px;}
+  .resume-btn { margin-left: 0;}
+  .prev { margin-top: 55%;}
+  .next{margin-top: 55%;}
+  .prev1 { margin-top: 55%;}
+  .next1{margin-top: 55%;}
+  .testimonial-img {margin-bottom: 15px;width: 100%;}
+  .testimonial-content {padding-left: 15px;width: 100%;}
+  .prev2 { margin-top: 70%;}
+  .next2{margin-top: 70%;}
+  .copyright-info { font-size: 12px;}
+  .design-info {font-size: 13px;}
+  .call-to-about {left: 40.7%;bottom: -145px;}
+  .up-btn {left: 40.7%;}
+  .personal-information > h3 {font-size: 18px;}
+  .reply-btn {font-size: 12px;padding: 6px 8px;}
+  .blog-content h2 {margin-bottom: 0;}
+  .blog-archive .card-image {height: 200px;}
+  .pagination li {width: 25px;margin: 0 5px;}
+
+}
+
+
+@media screen and (max-width: 320px) {
+  nav .brand-logo {  font-size: 1.1rem;}
+  #home {height: 200px;}
+  .home-inner {padding: 10px; font-size: 1em;}
+  .home-title { font-size: 30px;}
+  .experience-title { font-size: 14px;}
+  .reveal-title {font-size: 17px !important;}
+  .prev { margin-top: 57%;}
+  .next{margin-top: 57%;}
+  .prev1 { margin-top: 57%;}
+  .next1{margin-top: 57%;}
+  .testimonial-content p {font-size: 12px;}
+  .prev2 { margin-top: 77%;}
+  .next2{margin-top: 77%;}
+  .call-to-about {bottom: -120px; left: 39%;}
+  .up-btn {left: 39%;}
+  .header-title {font-size: 16px;line-height: 30px;}
+  .children {margin-left: 10px;}
+  .pagination li {width: 25px;margin: 0 5px;}
+
+}
