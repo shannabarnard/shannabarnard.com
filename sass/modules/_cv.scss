@@ -33,7 +33,8 @@
       display: inline-block;
       @include breakpoint($break-tablet) {
         text-align: left;
-        width: 10%;
+        width: 8%;
+        margin-right: 2%;
       }
   }
 

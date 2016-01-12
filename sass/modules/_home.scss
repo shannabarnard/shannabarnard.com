@@ -22,6 +22,9 @@
   @include breakpoint($break-desktop) {
     height: 600px;
   }
+  @include breakpoint($break-large-screen) {
+    height: 1000px;
+  }
 
   .overlay-section {
     background: rgba(0, 0, 0, 0.6) none repeat scroll 0 0;
