@@ -26,7 +26,7 @@
 nav .brand-logo {    
   font-weight: bold;  
   text-transform: uppercase;
-  font-size: 1.1rem;
+  font-size: .9rem;
   @include breakpoint($break-mobile) {
     font-size: 1.4rem;
   }

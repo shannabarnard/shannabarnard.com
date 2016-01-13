@@ -21,8 +21,9 @@ jQuery(function($){
 	/*  1. Mobile MENU
 	/* ----------------------------------------------------------- */
 
-    jQuery(".button-collapse").sideNav();
-
+    jQuery('.button-collapse').sideNav({
+      closeOnClick: true // Closes side-nav on <a> clicks
+    });
 
 	/* ----------------------------------------------------------- */
 	/*  2. MENU SMOOTH SCROLLING
@@ -47,6 +48,7 @@ jQuery(function($){
 	menuItems.click(function(e){
 	  var href = $(this).attr("href"),
 	      offsetTop = href === "#" ? 0 : $(href).offset().top-topMenuHeight+15;
+
 	  jQuery('html, body').stop().animate({ 
 	      scrollTop: offsetTop
 	  }, 900);
@@ -62,18 +64,7 @@ jQuery(function($){
 	   var cur = scrollItems.map(function(){
 	     if ($(this).offset().top < fromTop)
 	       return this;
-	   });
-	   // Get the id of the current element
-	   cur = cur[cur.length-1];
-	   var id = cur && cur.length ? cur[0].id : "";
-	   
-	   if (lastId !== id) {
-	       lastId = id;
-	       // Set/remove active class
-	       menuItems
-	         .parent().removeClass("active")
-	         .end().filter("[href=#"+id+"]").parent().addClass("active");
-	   }           
+	   });         
 	})
     
 	/* ----------------------------------------------------------- */

@@ -14,7 +14,11 @@
   display: inline;
   float: left;
   width: 100%;
-  h2, p {
+  h2 {
+    font-size: 3em;
+    color: $white;
+  }
+  p {
     color: $white;
   }
 }

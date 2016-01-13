@@ -10,11 +10,11 @@
   background-size: 100% 100%;
   display: inline;
   float: left;
-  height: 380px;
+  height: 290px;
   position: relative;
   width: 100%;
   @include breakpoint($break-phablet) {
-    height: 480px;
+    height: 420px;
   }
   @include breakpoint($break-tablet) {
     height: 560px;
@@ -47,7 +47,7 @@
     }
     p {
       color: $white;
-      font-size: 18px;
+      font-size: 16px;
       font-weight: 300;
       margin-bottom: 10px;
       text-transform: uppercase;
@@ -59,7 +59,7 @@
 
   .home-title{
     color: $white;
-    font-size: 32px;
+    font-size: 28px;
     font-weight: 700;
     margin: 15px 0;
     text-transform: uppercase;

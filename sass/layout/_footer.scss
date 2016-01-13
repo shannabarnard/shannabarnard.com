@@ -9,7 +9,7 @@
 
   .footer-top {
     display: inline;
-    padding: 80px 0;  
+    padding: 40px 0 100px;  
     float: left;  
     width: 100%;
     background-color: #4C8EB4; 
@@ -25,6 +25,7 @@
     }
     @include breakpoint($break-tablet) {
       background-size: 550px auto;
+      padding: 80px 0;
     }
     @include breakpoint($break-desktop) {
       background-size: 650px auto;
