@@ -1,4 +1,4 @@
-# shannabarnard.com
+# [shannabarnard.com](http://shannabarnard.com/)
 Portfolio Website: This is my online CV.
 
 
