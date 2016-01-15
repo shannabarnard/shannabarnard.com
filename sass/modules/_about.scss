@@ -14,9 +14,6 @@
     min-height: 300px;
     float: left;
     width: 100%;
-    h3 {
-      color: $primary-color;
-    }
   }
 
   .about-inner-left {  
@@ -31,17 +28,8 @@
     display: inline;
     float: left;
     width: 100%;
-    h3 {
-      margin-top: 0px;
-      font-size: 24px;
-      font-weight: 600;  
-      text-transform: uppercase;
-    }
     p {
       color: #727272;
-      font-size: 15px;
-      line-height: 28px;
-      margin-bottom: 35px;
     }
   }
 }
@@ -59,18 +47,10 @@
   float: left;
   width: 100%;
 
-  h3 {
-    color: $primary-color;
-    margin-top: 0px;
-    font-size: 24px;
-    font-weight: 600;  
-    text-transform: uppercase;
-  }
-
   ul li {
     border-bottom: 1px solid $light-gray;
     color: #727272;
-    font-size: 15px;
+    font-size: 1em;
     margin-bottom: 12px;
     padding-bottom: 12px;
   }

@@ -47,7 +47,6 @@
     }
     p {
       color: $white;
-      font-size: 16px;
       font-weight: 300;
       margin-bottom: 10px;
       text-transform: uppercase;
@@ -59,15 +58,15 @@
 
   .home-title{
     color: $white;
-    font-size: 28px;
+    font-size: $h4-fontsize;
     font-weight: 700;
     margin: 15px 0;
     text-transform: uppercase;
     @include breakpoint($break-phablet) {
-      font-size: 52px;
+      font-size: $h2-fontsize;
     }
     @include breakpoint($break-tablet) {
-      font-size: 72px;
+      font-size: $h1-fontsize;
     }
     span{
       color: $primary-color;

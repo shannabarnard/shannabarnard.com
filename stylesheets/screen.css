@@ -6,6 +6,11 @@
 /* BASIC TYPOGRAPHY   */
 /*--------------------*/
 /* line 5, ../sass/base/_base.scss */
+body {
+  font-size: 16px;
+}
+
+/* line 9, ../sass/base/_base.scss */
 h1,
 h2,
 h3,
@@ -15,40 +20,75 @@ h6 {
   font-family: "Roboto",sans-serif;
 }
 
-/* line 14, ../sass/base/_base.scss */
+/* line 18, ../sass/base/_base.scss */
+h2 {
+  font-size: 3.56em;
+}
+
+/* line 22, ../sass/base/_base.scss */
+h3 {
+  color: #78ADC9;
+  margin-top: 0;
+  font-size: 1.5em;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+/* line 30, ../sass/base/_base.scss */
+h4 {
+  font-size: 1.5em;
+  line-height: 1.6em;
+  margin: 0;
+}
+
+/* line 36, ../sass/base/_base.scss */
+h5 {
+  font-size: 1.125em;
+  line-height: 1.4em;
+  margin: 0;
+}
+
+/* line 42, ../sass/base/_base.scss */
+p {
+  font-size: 1em;
+  line-height: 28px;
+  margin-bottom: 35px;
+}
+
+/* line 48, ../sass/base/_base.scss */
 a {
   color: #78ADC9;
 }
 
-/* line 18, ../sass/base/_base.scss */
+/* line 52, ../sass/base/_base.scss */
 .btn, .btn-large {
   background-color: #78ADC9;
 }
 
-/* line 22, ../sass/base/_base.scss */
+/* line 56, ../sass/base/_base.scss */
 .btn:hover, .btn-large:hover {
   background-color: #78ADC9;
 }
 
-/* line 26, ../sass/base/_base.scss */
+/* line 60, ../sass/base/_base.scss */
 .title {
   color: #78ADC9;
 }
 
-/* line 30, ../sass/base/_base.scss */
+/* line 64, ../sass/base/_base.scss */
 .main-wrapper {
   display: inline;
   width: 100%;
   float: left;
 }
 
-/* line 36, ../sass/base/_base.scss */
+/* line 70, ../sass/base/_base.scss */
 small {
   color: #666666;
 }
 
 /* Preloader */
-/* line 41, ../sass/base/_base.scss */
+/* line 75, ../sass/base/_base.scss */
 #preloader {
   position: fixed;
   top: 0;
@@ -61,7 +101,7 @@ small {
   /* makes sure it stays on top */
 }
 
-/* line 51, ../sass/base/_base.scss */
+/* line 85, ../sass/base/_base.scss */
 #banner {
   display: inline;
   float: left;
@@ -69,7 +109,7 @@ small {
   min-height: 200px;
 }
 
-/* line 58, ../sass/base/_base.scss */
+/* line 92, ../sass/base/_base.scss */
 .header-title {
   color: #fff;
   font-size: 40px;
@@ -95,7 +135,7 @@ small {
 /* line 13, ../sass/layout/_nav.scss */
 .custom-nav li a {
   font-family: "Roboto",sans-serif;
-  font-size: 14px;
+  font-size: 1em;
   font-weight: 500;
   line-height: 14px;
   padding: 25px 20px;
@@ -110,24 +150,24 @@ small {
 nav .brand-logo {
   font-weight: bold;
   text-transform: uppercase;
-  font-size: .9rem;
+  font-size: .9em;
 }
 @media (min-width: 480px) {
   /* line 26, ../sass/layout/_nav.scss */
   nav .brand-logo {
-    font-size: 1.4rem;
+    font-size: 1.4em;
   }
 }
 @media (min-width: 600px) {
   /* line 26, ../sass/layout/_nav.scss */
   nav .brand-logo {
-    font-size: 1.8rem;
+    font-size: 1.8em;
   }
 }
 @media (min-width: 991px) {
   /* line 26, ../sass/layout/_nav.scss */
   nav .brand-logo {
-    font-size: 2.1rem;
+    font-size: 2.1em;
   }
 }
 /* line 39, ../sass/layout/_nav.scss */
@@ -351,7 +391,7 @@ nav .brand-logo img {
 #footer .design-info {
   color: #555555;
   display: inline-block;
-  font-size: 14px;
+  font-size: 1em;
   line-height: 25px;
   margin-top: 20px;
 }
@@ -364,13 +404,13 @@ nav .brand-logo img {
   color: #555555;
   display: inline-block;
   float: right;
-  font-size: 14px;
+  font-size: 1em;
   line-height: 25px;
 }
 /* line 121, ../sass/layout/_footer.scss */
 #footer .up-btn {
   color: #FFFFFF;
-  left: 45%;
+  left: 47.5%;
   position: absolute;
   top: -28px;
 }
@@ -451,7 +491,6 @@ nav .brand-logo img {
 /* line 48, ../sass/modules/_home.scss */
 #home .home-inner p {
   color: #FFFFFF;
-  font-size: 16px;
   font-weight: 300;
   margin-bottom: 10px;
   text-transform: uppercase;
@@ -462,37 +501,37 @@ nav .brand-logo img {
     margin-bottom: 38px;
   }
 }
-/* line 60, ../sass/modules/_home.scss */
+/* line 59, ../sass/modules/_home.scss */
 #home .home-title {
   color: #FFFFFF;
-  font-size: 28px;
+  font-size: 1.5em;
   font-weight: 700;
   margin: 15px 0;
   text-transform: uppercase;
 }
 @media (min-width: 600px) {
-  /* line 60, ../sass/modules/_home.scss */
+  /* line 59, ../sass/modules/_home.scss */
   #home .home-title {
-    font-size: 52px;
+    font-size: 3.56em;
   }
 }
 @media (min-width: 991px) {
-  /* line 60, ../sass/modules/_home.scss */
+  /* line 59, ../sass/modules/_home.scss */
   #home .home-title {
-    font-size: 72px;
+    font-size: 4.5em;
   }
 }
-/* line 72, ../sass/modules/_home.scss */
+/* line 71, ../sass/modules/_home.scss */
 #home .home-title span {
   color: #78ADC9;
 }
-/* line 76, ../sass/modules/_home.scss */
+/* line 75, ../sass/modules/_home.scss */
 #home .call-to-about {
   bottom: 0;
   left: 47.5%;
   position: absolute;
 }
-/* line 80, ../sass/modules/_home.scss */
+/* line 79, ../sass/modules/_home.scss */
 #home .call-to-about i {
   color: #78ADC9;
 }
@@ -515,40 +554,26 @@ nav .brand-logo img {
   float: left;
   width: 100%;
 }
-/* line 17, ../sass/modules/_about.scss */
-#about .about-inner h3 {
-  color: #78ADC9;
-}
-/* line 22, ../sass/modules/_about.scss */
+/* line 19, ../sass/modules/_about.scss */
 #about .about-inner-left {
   display: inline;
   text-align: center;
   float: left;
   width: 100%;
 }
-/* line 29, ../sass/modules/_about.scss */
+/* line 26, ../sass/modules/_about.scss */
 #about .about-inner-right {
   min-height: 250px;
   display: inline;
   float: left;
   width: 100%;
 }
-/* line 34, ../sass/modules/_about.scss */
-#about .about-inner-right h3 {
-  margin-top: 0px;
-  font-size: 24px;
-  font-weight: 600;
-  text-transform: uppercase;
-}
-/* line 40, ../sass/modules/_about.scss */
+/* line 31, ../sass/modules/_about.scss */
 #about .about-inner-right p {
   color: #727272;
-  font-size: 15px;
-  line-height: 28px;
-  margin-bottom: 35px;
 }
 
-/* line 49, ../sass/modules/_about.scss */
+/* line 37, ../sass/modules/_about.scss */
 .profile-img {
   border: 5px solid #FFFFFF;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
@@ -557,43 +582,35 @@ nav .brand-logo img {
   width: 140px;
 }
 
-/* line 57, ../sass/modules/_about.scss */
+/* line 45, ../sass/modules/_about.scss */
 .personal-information {
   display: inline;
   float: left;
   width: 100%;
 }
-/* line 62, ../sass/modules/_about.scss */
-.personal-information h3 {
-  color: #78ADC9;
-  margin-top: 0px;
-  font-size: 24px;
-  font-weight: 600;
-  text-transform: uppercase;
-}
-/* line 70, ../sass/modules/_about.scss */
+/* line 50, ../sass/modules/_about.scss */
 .personal-information ul li {
   border-bottom: 1px solid #EEEEEE;
   color: #727272;
-  font-size: 15px;
+  font-size: 1em;
   margin-bottom: 12px;
   padding-bottom: 12px;
 }
 
 @media (min-width: 1199px) {
-  /* line 79, ../sass/modules/_about.scss */
+  /* line 59, ../sass/modules/_about.scss */
   .resume-btn {
     margin-top: 160px;
     margin-left: 50px;
   }
 }
 
-/* line 86, ../sass/modules/_about.scss */
+/* line 66, ../sass/modules/_about.scss */
 .pro-bar-container.color-default {
   background-color: #EEEEEE;
 }
 
-/* line 90, ../sass/modules/_about.scss */
+/* line 70, ../sass/modules/_about.scss */
 .custom-icon {
   width: 4em;
   height: auto;
@@ -657,23 +674,19 @@ nav .brand-logo img {
     float: right;
   }
 }
-/* line 55, ../sass/modules/_cv.scss */
-#cv #experiance h3 {
-  font-size: 1.3em;
-  line-height: 1.4em;
+/* line 54, ../sass/modules/_cv.scss */
+#cv #experiance h4 {
   margin: 0;
 }
-/* line 60, ../sass/modules/_cv.scss */
-#cv #experiance h4 {
-  font-size: 1.1em;
-  line-height: 1.2em;
+/* line 57, ../sass/modules/_cv.scss */
+#cv #experiance h5 {
   margin: 1em 0 0;
 }
-/* line 65, ../sass/modules/_cv.scss */
+/* line 60, ../sass/modules/_cv.scss */
 #cv #experiance p {
   font-size: .8em;
 }
-/* line 71, ../sass/modules/_cv.scss */
+/* line 66, ../sass/modules/_cv.scss */
 #cv #skill .btn-ghost {
   border: 1px solid #ddd;
   background: #EEEEEE;
@@ -681,57 +694,57 @@ nav .brand-logo img {
   margin: 0 .1em .3em 0;
   display: inline-block;
 }
-/* line 80, ../sass/modules/_cv.scss */
+/* line 75, ../sass/modules/_cv.scss */
 #cv .skill-inner {
   display: inline;
   float: left;
   width: 100%;
 }
-/* line 84, ../sass/modules/_cv.scss */
+/* line 79, ../sass/modules/_cv.scss */
 #cv .skill-inner p {
   color: #727272;
   font-size: 16px;
   line-height: 30px;
   font-weight: 400;
 }
-/* line 92, ../sass/modules/_cv.scss */
+/* line 87, ../sass/modules/_cv.scss */
 #cv .title {
-  font-size: 28px;
+  font-size: 1.750em;
   font-weight: 700;
   line-height: 1.1;
   margin-bottom: 35px;
   text-transform: uppercase;
 }
-/* line 100, ../sass/modules/_cv.scss */
+/* line 95, ../sass/modules/_cv.scss */
 #cv .skill-progress-bar {
   display: inline;
   float: left;
   width: 100%;
 }
-/* line 104, ../sass/modules/_cv.scss */
+/* line 99, ../sass/modules/_cv.scss */
 #cv .skill-progress-bar span {
   color: #727272;
   display: inline-block;
-  font-size: 16px;
+  font-size: 1em;
   font-weight: bold;
   margin-bottom: 5px;
   text-transform: uppercase;
 }
-/* line 114, ../sass/modules/_cv.scss */
+/* line 109, ../sass/modules/_cv.scss */
 #cv .pro-bar-container {
   border-radius: 0;
   height: 30px;
 }
-/* line 119, ../sass/modules/_cv.scss */
+/* line 114, ../sass/modules/_cv.scss */
 #cv .pro-bar {
-  border-radius: 0px;
+  border-radius: 0;
   height: 30px;
 }
-/* line 124, ../sass/modules/_cv.scss */
+/* line 119, ../sass/modules/_cv.scss */
 #cv .client-row {
   margin: 40px 0;
 }
-/* line 126, ../sass/modules/_cv.scss */
+/* line 121, ../sass/modules/_cv.scss */
 #cv .client-row .client-logo {
   height: 32px;
   margin-bottom: 25px;
@@ -740,7 +753,7 @@ nav .brand-logo img {
   margin-right: auto;
 }
 @media (min-width: 991px) {
-  /* line 126, ../sass/modules/_cv.scss */
+  /* line 121, ../sass/modules/_cv.scss */
   #cv .client-row .client-logo {
     height: 50px;
   }
@@ -766,15 +779,14 @@ nav .brand-logo img {
 }
 /* line 17, ../sass/modules/_testimonial.scss */
 .testimonial-inner h2 {
-  font-size: 3em;
   color: #FFFFFF;
 }
-/* line 21, ../sass/modules/_testimonial.scss */
+/* line 20, ../sass/modules/_testimonial.scss */
 .testimonial-inner p {
   color: #FFFFFF;
 }
 
-/* line 26, ../sass/modules/_testimonial.scss */
+/* line 25, ../sass/modules/_testimonial.scss */
 .testimonial-slider-area {
   display: inline;
   float: left;
@@ -783,14 +795,14 @@ nav .brand-logo img {
   position: relative;
 }
 
-/* line 34, ../sass/modules/_testimonial.scss */
+/* line 33, ../sass/modules/_testimonial.scss */
 .testimonial-slider {
   display: inline;
   float: left;
   width: 100%;
 }
 
-/* line 40, ../sass/modules/_testimonial.scss */
+/* line 39, ../sass/modules/_testimonial.scss */
 .single-testimonial {
   background-color: #fff;
   border-radius: 2px;
@@ -802,42 +814,42 @@ nav .brand-logo img {
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
 @media (min-width: 600px) {
-  /* line 40, ../sass/modules/_testimonial.scss */
+  /* line 39, ../sass/modules/_testimonial.scss */
   .single-testimonial {
     padding: 15px;
   }
 }
 
-/* line 54, ../sass/modules/_testimonial.scss */
+/* line 53, ../sass/modules/_testimonial.scss */
 .testimonial-content {
   float: left;
   display: inline;
   font-size: .8em;
 }
 @media (min-width: 600px) {
-  /* line 54, ../sass/modules/_testimonial.scss */
+  /* line 53, ../sass/modules/_testimonial.scss */
   .testimonial-content {
     height: 380px;
   }
 }
 @media (min-width: 991px) {
-  /* line 54, ../sass/modules/_testimonial.scss */
+  /* line 53, ../sass/modules/_testimonial.scss */
   .testimonial-content {
     height: 260px;
   }
 }
 @media (min-width: 1199px) {
-  /* line 54, ../sass/modules/_testimonial.scss */
+  /* line 53, ../sass/modules/_testimonial.scss */
   .testimonial-content {
     height: 240px;
   }
 }
-/* line 67, ../sass/modules/_testimonial.scss */
+/* line 66, ../sass/modules/_testimonial.scss */
 .testimonial-content i {
   float: right;
   margin: 0 0 20px 20px;
 }
-/* line 71, ../sass/modules/_testimonial.scss */
+/* line 70, ../sass/modules/_testimonial.scss */
 .testimonial-content h3 {
   font-size: 2em;
   line-height: 1em;
@@ -845,79 +857,79 @@ nav .brand-logo img {
   text-align: left;
   width: 100%;
 }
-/* line 78, ../sass/modules/_testimonial.scss */
+/* line 77, ../sass/modules/_testimonial.scss */
 .testimonial-content span {
   color: #666666;
   display: block;
   font-size: .8em;
 }
-/* line 83, ../sass/modules/_testimonial.scss */
+/* line 82, ../sass/modules/_testimonial.scss */
 .testimonial-content p {
   color: #000000;
   font-style: italic;
 }
 
-/* line 89, ../sass/modules/_testimonial.scss */
+/* line 88, ../sass/modules/_testimonial.scss */
 .prev2 {
   margin-top: 42%;
   left: -6%;
   position: absolute;
 }
 @media (min-width: 480px) {
-  /* line 89, ../sass/modules/_testimonial.scss */
+  /* line 88, ../sass/modules/_testimonial.scss */
   .prev2 {
     margin-top: 28%;
     left: -5%;
   }
 }
 @media (min-width: 600px) {
-  /* line 89, ../sass/modules/_testimonial.scss */
+  /* line 88, ../sass/modules/_testimonial.scss */
   .prev2 {
     margin-top: 25%;
     left: -8%;
   }
 }
 @media (min-width: 991px) {
-  /* line 89, ../sass/modules/_testimonial.scss */
+  /* line 88, ../sass/modules/_testimonial.scss */
   .prev2 {
     margin-top: 15%;
   }
 }
 @media (min-width: 1199px) {
-  /* line 89, ../sass/modules/_testimonial.scss */
+  /* line 88, ../sass/modules/_testimonial.scss */
   .prev2 {
     margin-top: 8%;
     left: -6%;
   }
 }
 
-/* line 110, ../sass/modules/_testimonial.scss */
+/* line 109, ../sass/modules/_testimonial.scss */
 .next2 {
   margin-top: 42%;
   right: -4.5%;
   position: absolute;
 }
 @media (min-width: 480px) {
-  /* line 110, ../sass/modules/_testimonial.scss */
+  /* line 109, ../sass/modules/_testimonial.scss */
   .next2 {
     margin-top: 28%;
   }
 }
 @media (min-width: 600px) {
-  /* line 110, ../sass/modules/_testimonial.scss */
+  /* line 109, ../sass/modules/_testimonial.scss */
   .next2 {
     margin-top: 25%;
     right: -8%;
   }
 }
 @media (min-width: 991px) {
-  /* line 110, ../sass/modules/_testimonial.scss */
+  /* line 109, ../sass/modules/_testimonial.scss */
   .next2 {
     margin-top: 15%;
   }
 }
 @media (min-width: 1199px) {
-  /* line 110, ../sass/modules/_testimonial.scss */
+  /* line 109, ../sass/modules/_testimonial.scss */
   .next2 {
     margin-top: 8%;
     right: -6%;

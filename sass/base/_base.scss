@@ -2,6 +2,10 @@
 /* BASIC TYPOGRAPHY   */
 /*--------------------*/
 
+body {
+  font-size: $fontsize-base;
+}
+
 h1,
 h2,
 h3,
@@ -9,6 +13,36 @@ h4,
 h5,
 h6{
   font-family: "Roboto",sans-serif;
+}
+
+h2 {
+  font-size: $h2-fontsize;
+}
+
+h3 {
+  color: $primary-color;
+  margin-top: 0;
+  font-size: $h4-fontsize;
+  font-weight: 600;  
+  text-transform: uppercase;
+}
+
+h4 {
+    font-size: $h4-fontsize;
+    line-height: 1.6em;
+    margin: 0;
+}
+
+h5 {
+    font-size: $h5-fontsize;
+    line-height: 1.4em;
+    margin: 0;
+}
+
+p {
+  font-size: 1em;
+  line-height: 28px;
+  margin-bottom: 35px;
 }
 
 a {

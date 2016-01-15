@@ -13,3 +13,21 @@ $break-phablet: 600px;
 $break-tablet: 991px;
 $break-desktop: 1199px;
 $break-large-screen: 1600px;
+
+
+// Typography
+$fontsize-base: 16px !default;
+
+$fontsize-large: ceil(($fontsize-base * 1.25)) !default;
+$fontsize-small: ceil(($fontsize-base * 0.85)) !default;
+
+//Line-height
+$lineheight-base: 1.428571429 !default;
+
+// Header Styles
+$h1-fontsize: 4.5em; // ~72px
+$h2-fontsize: 3.56em !default; // ~56px
+$h3-fontsize: 2em !default; // ~32px
+$h4-fontsize: 1.5em !default; // ~24px
+$h5-fontsize: 1.125em !default; // ~18px
+$h6-fontsize: .875em !default; // ~14px

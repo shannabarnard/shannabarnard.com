@@ -102,7 +102,7 @@
   .design-info {
     color: $mid-gray;
     display: inline-block; 
-    font-size: 14px;
+    font-size: 1em;
     line-height: 25px;
     margin-top: 20px;
     a {
@@ -114,13 +114,13 @@
     color: $mid-gray;
     display: inline-block;
     float: right;
-    font-size: 14px;
+    font-size: 1em;
     line-height: 25px;  
   }
 
   .up-btn {
     color: $white;
-    left: 45%;
+    left: 47.5%;
     position: absolute;
     top: -28px;
     i {
