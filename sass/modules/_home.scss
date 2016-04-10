@@ -3,31 +3,19 @@
 /* Home */
 /*--------------------*/
 
-
+body {
+  background: #222;
+}
 #home {
   background-image: url("../img/home-bg.jpg");
-  background-position: 100% 100%;
-  background-size: 100% 100%;
-  display: inline;
-  float: left;
-  height: 290px;
-  position: relative;
-  width: 100%;
-  @include breakpoint($break-phablet) {
-    height: 420px;
-  }
-  @include breakpoint($break-tablet) {
-    height: 560px;
-  }
-  @include breakpoint($break-desktop) {
-    height: 600px;
-  }
-  @include breakpoint($break-large-screen) {
-    height: 1000px;
-  }
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
 
   .overlay-section {
-    background: rgba(0, 0, 0, 0.6) none repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0.85) none repeat scroll 0 0;
     height: 100%;
     width: 100%;
   }
@@ -39,45 +27,24 @@
     position: relative;
     width: 100%;
     padding: 10px;
-    @include breakpoint($break-phablet) {
-      padding: 52px;
-    }
-    @include breakpoint($break-tablet) {
-      padding: 180px;
-    }
-    p {
-      color: $white;
-      font-weight: 300;
-      margin-bottom: 10px;
-      text-transform: uppercase;
-      @include breakpoint($break-phablet) {
-        margin-bottom: 38px;
-      }
-    }
-  }
+    margin-top: 15%;
+    text-shadow: 2px 2px 2px #222;
+    color: #78ADC9;
 
-  .home-title{
-    color: $white;
-    font-size: $h4-fontsize;
-    font-weight: 700;
-    margin: 15px 0;
-    text-transform: uppercase;
-    @include breakpoint($break-phablet) {
-      font-size: $h2-fontsize;
+    h1 {
+      font-size: 60px;
+      margin-bottom: 1em;
     }
-    @include breakpoint($break-tablet) {
-      font-size: $h1-fontsize;
+
+    h2 {
+      font-size: 40px;
+      margin-bottom: 0;
     }
-    span{
-      color: $primary-color;
-    }
-  }
-  .call-to-about {
-    bottom: 0;  
-    left: 47.5%;
-    position: absolute;
-    i {
-      color: $primary-color;
+
+    p {
+      font-size: 15px;
+      color: #FADC86;
+      margin: 0;
     }
   }
 }
